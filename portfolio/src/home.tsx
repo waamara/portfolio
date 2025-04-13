@@ -1,15 +1,18 @@
 import Bgimg from "../../portfolio/src/assets/backgr.png"
-import Seepng from "../../portfolio/src/assets/see.png" 
+import Seepng from "../../portfolio/src/assets/see.png"
 import Dowlandpng from "../../portfolio/src/assets/dowland.png"
-
+import Mypic from "../../portfolio/src/assets/me.jpg"
+import Pointimg from "../../portfolio/src/assets/point.png" 
+import Foldericone from "../../portfolio/src/assets/folder.png"
+import Img from "../../portfolio/src/assets/img.png"
 
 const home = () => {
     return (
-        <div 
-        style={{
-            backgroundImage: `url($Bgimg)`,
-        }}
-        className="text-white bg-blue-950  bg-opacity-80 p-8">
+        <div
+            style={{
+                backgroundImage: `url($Bgimg)`,
+            }}
+            className="text-white bg-gray-950   p-8">
             <p className="text-2xl font-semibold">Hello it's Aymen </p> <br />
             <p>I'm a frontend developer with a passion for crafting pixel-perfect, user-friendly interfaces. I believe in clean, efficient code and building responsive websites that provide the best user experience, no matter the device.</p>
             <div className='flex flex-col pt-4'>
@@ -26,40 +29,54 @@ const home = () => {
                 </div>
                 <div className='flex flex-row items-center justify-between pt-4'>
                     <p className="font-semibold">Follow On</p>
-                    <a  className="bg-[#C2F6FF08] p-2 rounded-md"
+                    <a className="bg-[#C2F6FF08] p-2 rounded-md"
                         href="linkedin.com/in/aymen-berbiche-772a13280">Linkedin</a>
-                    <a  className="bg-[#C2F6FF08] p-2 rounded-md"
+                    <a className="bg-[#C2F6FF08] p-2 rounded-md"
                         href="">Instagram</a>
-                    <a  className="bg-[#C2F6FF08] p-2 rounded-md"
+                    <a className="bg-[#C2F6FF08] p-2 rounded-md"
                         href="https://github.com/waamara">Github</a>
                 </div>
             </div>
-            <div>
-                <img src="" alt="no img yet" />
-            </div> 
-            <div className='flex flex-row'> 
-                <div>
-                    <p>Available For work</p>
+            <div className="p-12">
+                <img src={Mypic} alt="My-img " />
+            </div>
+            <div className='flex flex-row justify-evenly'>
+                <div className=" bg-[#C2F6FF08] p-2 rounded-md flex flex-row">
+                    <img src={Pointimg} alt="icone" />
+                    <p className="text-2xl">Available For work</p>
                 </div>
-                <div>
-                    <p>Algeria</p>
+                <div  className=" bg-[#C2F6FF08] p-2 rounded-md flex flex-row">
+                    <img src={Pointimg} alt="icone" />
+                    <p className="text-2xl">Algeria</p>
                 </div>
             </div>
-            <div>
-                <button>
+            <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+                <img src={Img} alt="img" />
+                <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
                     <p>view works</p>
+                    <img src={Foldericone} alt="folder-icone" />
                 </button>
             </div>
-            <div>
-                <button>
-                    <p>More About Me </p>
+            <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+                <img src={Img} alt="img" />
+                <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
+                    <p>view works</p>
+                    <img src={Foldericone} alt="folder-icone" />
                 </button>
             </div>
-            <div>
-                <p>Popular Repo</p>
+            <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+                <img src={Img} alt="img" />
+                <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
+                    <p>view works</p>
+                    <img src={Foldericone} alt="folder-icone" />
+                </button>
             </div>
-            <div>
-                <p>My Github Contibution</p>
+            <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+                <img src={Img} alt="img" />
+                <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
+                    <p>view works</p>
+                    <img src={Foldericone} alt="folder-icone" />
+                </button>
             </div>
         </div>
     )
