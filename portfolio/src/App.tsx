@@ -6,4 +6,4 @@ const App = () => {
   )
 }
 
-export default App
+export default https://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-vitehttps://tailwindcss.com/docs/installation/using-viteApp
