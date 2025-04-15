@@ -1,8 +1,12 @@
 import Bgimg from "../../portfolio/src/assets/backgr.png"
 import Mypic from "../../portfolio/src/assets/me.jpg"
-import Star from "../../portfolio/src/assets/star.png" 
+import Star from "../../portfolio/src/assets/star.png"
 import Logo from "../../portfolio/src/assets/logo.png"
 import Experience from "../../portfolio/src/assets/experience.png"
+import Linkedin from "../../portfolio/src/assets/email (7).png"
+import Email from "../../portfolio/src/assets/email (1).png"
+
+
 
 const About = () => {
     return (
@@ -33,7 +37,7 @@ const About = () => {
                 <div className="flex flex-row">
                     <p className="font-semibold text-xl">My Skills</p>
                     <img src={Logo} alt="Logo-icone" />
-                </div> 
+                </div>
                 <p className="pt-4">The Advanced Technologies I Use ✨ </p>
             </div>
             <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl">
@@ -54,6 +58,20 @@ const About = () => {
                         <div>
                             <p>Double Square | Full-time</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  bg-[#C2F6FF08] rounded-2xl">
+                <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
+                <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
+                <div>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+                        <img src={Email} alt="email-icone" />
+                        <p>berbicheaymen@gmail.com</p>
+                    </div>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+                        <img src={Linkedin} alt="email-icone" />
+                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
                     </div>
                 </div>
             </div>
