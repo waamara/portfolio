@@ -45,18 +45,57 @@ const About = () => {
                     <p className="text-2xl font-semibold">Experience</p>
                     <img src={Experience} alt="Experience-icone" />
                 </div>
-                <div className="flex flex-col ">
-                    <div className="flex-flex-col bg-[#C2F6FF0F]">
+                <div className="flex flex-col gap-4 overflow-scroll h-[400px] ">
+                    <div className="flex-flex-col p-3 bg-[#C2F6FF0F] rounded-2xl">
                         <div className="flex flex-row justify-between">
                             <p>Jul. 2023 - Ago. 2023</p>
-                            <div>most recent</div>
+                            <div className="bg-[#38ACFF40] rounded-2xl p-1 text-[#76C6FF] text-[#63ACF1]">most recent</div>
                         </div>
-                        <div>
-                            <p>Senior Graphic Designer</p>
+                        <div className="pt-3">
+                            <p className="text-xl font-semibold pb-3">Senior Graphic Designer</p>
+                            <p>Double Square | Full-time</p>
+                        </div>
+                        <div className="p-3">
                             <p>Development of internal projects from scratch, product design of brands...</p>
                         </div>
-                        <div>
+                    </div>
+                    <div className="flex-flex-col p-3 bg-[#C2F6FF0F] rounded-2xl">
+                        <div className="flex flex-row justify-between">
+                            <p>Jul. 2023 - Ago. 2023</p>
+                            <div className="bg-[#38ACFF40] rounded-2xl p-1 text-[#76C6FF] text-[#63ACF1]">most recent</div>
+                        </div>
+                        <div className="pt-3">
+                            <p className="text-xl font-semibold pb-3">Senior Graphic Designer</p>
                             <p>Double Square | Full-time</p>
+                        </div>
+                        <div className="p-3">
+                            <p>Development of internal projects from scratch, product design of brands...</p>
+                        </div>
+                    </div>
+                    <div className="flex-flex-col p-3 bg-[#C2F6FF0F] rounded-2xl">
+                        <div className="flex flex-row justify-between">
+                            <p>Jul. 2023 - Ago. 2023</p>
+                            <div className="bg-[#38ACFF40] rounded-2xl p-1 text-[#76C6FF] text-[#63ACF1]">most recent</div>
+                        </div>
+                        <div className="pt-3">
+                            <p className="text-xl font-semibold pb-3">Senior Graphic Designer</p>
+                            <p>Double Square | Full-time</p>
+                        </div>
+                        <div className="p-3">
+                            <p>Development of internal projects from scratch, product design of brands...</p>
+                        </div>
+                    </div>
+                    <div className="flex-flex-col p-3 bg-[#C2F6FF0F] rounded-2xl">
+                        <div className="flex flex-row justify-between">
+                            <p>Jul. 2023 - Ago. 2023</p>
+                            <div className="bg-[#38ACFF40] rounded-2xl p-1 text-[#76C6FF] text-[#63ACF1]">most recent</div>
+                        </div>
+                        <div className="pt-3">
+                            <p className="text-xl font-semibold pb-3">Senior Graphic Designer</p>
+                            <p>Double Square | Full-time</p>
+                        </div>
+                        <div className="p-3">
+                            <p>Development of internal projects from scratch, product design of brands...</p>
                         </div>
                     </div>
                 </div>
