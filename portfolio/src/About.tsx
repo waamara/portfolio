@@ -33,8 +33,7 @@ const About = () => {
                     <p className="font-semibold text-xl">My Skills</p>
                     <img src={Logo} alt="Logo-icone" />
                 </div> 
-                <p>The Advanced Technologies I Use ✨ </p>
-              
+                <p className="pt-4">The Advanced Technologies I Use ✨ </p>
             </div>
         </div>
     )
