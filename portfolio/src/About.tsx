@@ -2,6 +2,7 @@ import Bgimg from "../../portfolio/src/assets/backgr.png"
 import Mypic from "../../portfolio/src/assets/me.jpg"
 import Star from "../../portfolio/src/assets/star.png" 
 import Logo from "../../portfolio/src/assets/logo.png"
+import Experience from "../../portfolio/src/assets/experience.png"
 
 const About = () => {
     return (
@@ -34,6 +35,27 @@ const About = () => {
                     <img src={Logo} alt="Logo-icone" />
                 </div> 
                 <p className="pt-4">The Advanced Technologies I Use ✨ </p>
+            </div>
+            <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl">
+                <div className="flex flex-row  pb-6">
+                    <p className="text-2xl font-semibold">Experience</p>
+                    <img src={Experience} alt="Experience-icone" />
+                </div>
+                <div className="flex flex-col ">
+                    <div className="flex-flex-col bg-[#C2F6FF0F]">
+                        <div className="flex flex-row justify-between">
+                            <p>Jul. 2023 - Ago. 2023</p>
+                            <div>most recent</div>
+                        </div>
+                        <div>
+                            <p>Senior Graphic Designer</p>
+                            <p>Development of internal projects from scratch, product design of brands...</p>
+                        </div>
+                        <div>
+                            <p>Double Square | Full-time</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
