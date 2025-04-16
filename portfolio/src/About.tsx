@@ -105,19 +105,20 @@ const About = () => {
                     <p className="text-2xl font-semibold">Testamonial </p>
                     <img src={Icone} alt="icone" />
                 </div>
-                <div className="flex flex-col  ">
-                    <div>
-                        <div>
-                            <img src="" alt="" />
+                <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
+                    <div className="flex flex-row  pb-4 ">
+                        <div className="pr-6">
+                            <img src={Mypic} alt="picture-of-the-talker" 
+                            className="w-14 rounded-xl"/>
                         </div>
                         <div>
-                            <p>Full Name</p>
+                            <p className="text-xl">Full Name</p>
                             <p>role lorem ipsum</p>
                         </div>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur iscing elit, sed do eiusmod tempor incididunt ut labore elit, </p>
-                        <p>17 oct 2024</p>
+                        <p className="pt-2 text-[#FFFFFFCC]">17 oct 2024</p>
                     </div>
                 </div>
             </div>
