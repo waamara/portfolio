@@ -1,10 +1,11 @@
 import Home from "../src/home"
 import About from "../src/About"
+import Works from  "../src/Works"
 
 const App = () => {
   return (
     <>
-      <About></About>
+      <Works></Works>
     </>
 
   )
