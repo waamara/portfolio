@@ -5,7 +5,7 @@ import Logo from "../../portfolio/src/assets/logo.png"
 import Experience from "../../portfolio/src/assets/experience.png"
 import Linkedin from "../../portfolio/src/assets/email (7).png"
 import Email from "../../portfolio/src/assets/email (1).png"
-
+import Icone from "../../portfolio/src/assets/good.png"
 
 
 const About = () => {
@@ -97,6 +97,27 @@ const About = () => {
                         <div className="p-3">
                             <p>Development of internal projects from scratch, product design of brands...</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl">
+                <div className="flex flex-row  pb-6">
+                    <p className="text-2xl font-semibold">Testamonial </p>
+                    <img src={Icone} alt="icone" />
+                </div>
+                <div className="flex flex-col  ">
+                    <div>
+                        <div>
+                            <img src="" alt="" />
+                        </div>
+                        <div>
+                            <p>Full Name</p>
+                            <p>role lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur iscing elit, sed do eiusmod tempor incididunt ut labore elit, </p>
+                        <p>17 oct 2024</p>
                     </div>
                 </div>
             </div>
