@@ -4,7 +4,9 @@ import Works from  "../src/Works"
 
 const App = () => {
   return (
-    <>
+    <> 
+      <Home></Home>
+      <About></About>
       <Works></Works>
     </>
 

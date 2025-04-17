@@ -24,12 +24,89 @@ const Works = () => {
                             <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
                         </div>
                         <div>
-                            <div>
-                                <p>React Js</p>
+                            <div className="flex flex-row  justify-evenly mt-4">
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                    <div>
+                        <img src={Image} alt="Image de  projet " className="w-full p-3" />
+                        <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
+                    </div>
+                    <div className="p-4">
+                        <div>
+                            <p className="text-xl pb-1" >agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                        </div>
+                        <div>
+                            <div className="flex flex-row  justify-evenly mt-4">
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                    <div>
+                        <img src={Image} alt="Image de  projet " className="w-full p-3" />
+                        <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
+                    </div>
+                    <div className="p-4">
+                        <div>
+                            <p className="text-xl pb-1" >agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                        </div>
+                        <div>
+                            <div className="flex flex-row  justify-evenly mt-4">
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                    <div>
+                        <img src={Image} alt="Image de  projet " className="w-full p-3" />
+                        <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
+                    </div>
+                    <div className="p-4">
+                        <div>
+                            <p className="text-xl pb-1" >agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                        </div>
+                        <div>
+                            <div className="flex flex-row  justify-evenly mt-4">
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                    <div>
+                        <img src={Image} alt="Image de  projet " className="w-full p-3" />
+                        <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
+                    </div>
+                    <div className="p-4">
+                        <div>
+                            <p className="text-xl pb-1" >agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                        </div>
+                        <div>
+                            <div className="flex flex-row  justify-evenly mt-4">
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
+                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
