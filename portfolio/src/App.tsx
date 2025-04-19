@@ -1,21 +1,22 @@
-import Header from  "../src/Header"
-import Home from "../src/Home"
-import About from "../src/About"
-import Works from  "../src/Works"
-import Contact from  "../src/Contact"
-
+import Header from "../src/Header";
+import Home from "../src/Home";
+import About from "../src/About";
+import Works from "../src/Works";
+import Contact from "../src/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <> 
-      <Header></Header>
-      <Home></Home>
-      <About></About>
-      <Works></Works>
-      <Contact></Contact>
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;

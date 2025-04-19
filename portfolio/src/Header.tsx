@@ -1,19 +1,22 @@
-import Bgimg from "../../portfolio/src/assets/backgr.png"
+import { Link } from "react-router-dom";
+import Bgimg from "../src/assets/backgr.png";
 
-
-const Header  = () => {
+const Header = () => {
     return (
-        <div style={{
-            backgroundImage: `url($Bgimg)`,
-        }}
-            className="text-white bg-gray-950 opacity-100  p-8">
-                <a href="">Home</a> 
-                <a href="">About</a> 
-                <a href="">Works</a> 
-                <a href="">Get in touche</a> 
+        <div
+            style={{
+                backgroundImage: `url(${Bgimg})`,
+            }}
+            className="text-white bg-gray-950 opacity-100 p-8"
+        >
+            <nav className="flex gap-4">
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/works">Works</Link>
+                <Link to="/contact">Get in Touch</Link>
+            </nav>
         </div>
-    )
-}
+    );
+};
 
-
-export default Header
+export default Header;
