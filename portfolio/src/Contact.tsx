@@ -12,7 +12,7 @@ const Contact = () => {
         <div style={{
             backgroundImage: `url($Bgimg)`,
         }}
-            className="text-white bg-gray-950 opacity-100  p-8 h-screen">
+            className="text-white bg-[#0A0B10] bg-cover   p-8 h-screen">
             <div >
                 <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                 <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
