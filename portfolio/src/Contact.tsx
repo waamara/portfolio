@@ -40,10 +40,10 @@ const Contact = () => {
                 </div>
             </div>
             <div className="flex flex-col mt-12">
-                <input type="text" placeholder="Full Name" className="bg-white" />
-                <input type="text" placeholder="Email" />
-                <input type="text" placeholder="Message" />
-                <button>Send Message </button>
+                <input type="text" placeholder="Full Name" className=" pt-5 pb-5 pl-2 mb-4" />
+                <input type="text" placeholder="Email" className=" pt-5 pb-5 pl-2 mb-4" />
+                <input type="text" placeholder="Message" className=" pt-5 pb-5 pl-2 mb-4" />
+                <button className="bg-[#4D8FCD] rounded-xl  w-[150px] h-[50px]  font-semibold ">Send Message </button>
             </div>
         </div>
     )
