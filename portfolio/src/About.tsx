@@ -15,8 +15,8 @@ const About = () => {
         <div style={{
             backgroundImage: `url($Bgimg)`,
         }}
-            className="text-white bg-gray-950 opacity-100  p-8">
-            <div>
+            className="text-white bg-gray-950 opacity-100 md:flex md:flex-col  p-8">
+            <div className="md:flex md:flex-row">
                 <div className="p-12">
                     <img src={Mypic} alt="My-img " />
                 </div>
@@ -37,7 +37,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="md:flex md:flex-row">
                 <div className=" flex flex-col p-6 mt-10 items-center h-[200px]  bg-[#C2F6FF08] rounded-2xl">
                     <div className="flex flex-row">
                         <p className="font-semibold text-xl">My Skills</p>
@@ -106,7 +106,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="md:flex md:flex-row">
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl">
                     <div className="flex flex-row  pb-6">
                         <p className="text-2xl font-semibold">Testamonial </p>
