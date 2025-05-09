@@ -16,11 +16,11 @@ const About = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-gray-950 opacity-100 md:flex md:flex-col  p-8">
-            <div className="md:flex md:flex-row">
+            <div className="md:flex md:flex-row md:justify-evenly">
                 <div className="p-12">
-                    <img src={Mypic} alt="My-img " />
+                    <img src={Mypic} alt="" className="w-[300px]" />
                 </div>
-                <div>
+                <div className="w-[420px]  ">
                     <p className="text-3xl">I Am Aymen </p> <br />
                     <p>I'm Aymen, a passionate frontend developer and a computer science student at USTHB. I specialize in building modern, responsive, and user-friendly web applications using the latest technologies.</p>
                     <br />
