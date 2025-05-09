@@ -7,13 +7,14 @@ import Instagram from "../../portfolio/src/assets/Instagram.png"
 
 const Contact = () => {
     return (
-
-
         <div style={{
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-[#0A0B10] bg-cover md:flex md:flex-row  p-8 h-svh">
             <div>
+                <div>
+                    
+                </div>
                 <div >
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
