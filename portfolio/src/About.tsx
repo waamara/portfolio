@@ -45,7 +45,7 @@ const About = () => {
                     </div>
                     <p className="pt-4">The Advanced Technologies I Use ✨ </p>
                 </div>
-                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] md:h-[400px]  rounded-2xl">
+                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] md:h-[400px] md:w-[650px] rounded-2xl">
                     <div className="flex flex-row  pb-6">
                         <p className="text-2xl font-semibold">Experience</p>
                         <img src={Experience} alt="Experience-icone" />
@@ -115,7 +115,7 @@ const About = () => {
                 </div>
             </div>
             <div className="md:flex md:flex-row  md:justify-evenly">
-                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[600px]">
+                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[650px]">
                     <div className="flex flex-row  pb-6">
                         <p className="text-2xl font-semibold">Testamonial </p>
                         <img src={Icone} alt="icone" />
