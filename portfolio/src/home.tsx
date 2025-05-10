@@ -59,11 +59,11 @@ const home = () => {
                         </button>
                     </div>
                 </div>
-                <div className="md:w-[400px]">
+                <div className=" ">
                     <div className="p-12">
                         <img src={Mypic} alt="My-img " />
                     </div>
-                    <div className='flex flex-row justify-evenly'>
+                    <div className='flex flex-row justify-evenly md:h-[30px]'>
                         <div className=" bg-[#C2F6FF08] p-2 rounded-md flex flex-row">
                             <img src={Pointimg} alt="icone" />
                             <p className="text-2xl">Available For work</p>
