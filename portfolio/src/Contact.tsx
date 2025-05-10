@@ -16,7 +16,7 @@ const Contact = () => {
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
                     <div className="flex flex-col mt-12">
-                        <div className="flex flex-col md:flex-row">
+                        <div className="flex flex-col md:flex-row ">
                             <input type="text" placeholder="Full Name" className=" pt-5 pb-5 pl-2 mb-4" />
                             <input type="text" placeholder="Email" className=" pt-5 pb-5 pl-2 mb-4" />
                         </div>
