@@ -60,7 +60,7 @@ const home = () => {
                     </div>
                 </div>
                 <div className=" ">
-                    <div className="p-12">
+                    <div className=" md:w-[300px] ">
                         <img src={Mypic} alt="My-img " />
                     </div>
                     <div className='flex flex-row justify-evenly md:h-[30px]'>
