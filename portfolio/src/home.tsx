@@ -14,8 +14,8 @@ const home = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
-            <div className="md:flex md:flex-row">
-                <div>
+            <div className="md:flex md:flex-row md:justify-around">
+                <div className="md:w-[800px]">
                     <div>
                         <p className="text-2xl font-semibold">Hello it's Aymen </p> <br />
                         <p>I'm a frontend developer with a passion for crafting pixel-perfect, user-friendly interfaces. I believe in clean, efficient code and building responsive websites that provide the best user experience, no matter the device.</p>
@@ -59,7 +59,7 @@ const home = () => {
                         </button>
                     </div>
                 </div>
-                <div>
+                <div className="md:">
                     <div className="p-12">
                         <img src={Mypic} alt="My-img " />
                     </div>
@@ -75,8 +75,8 @@ const home = () => {
                     </div>
                 </div>
             </div>
-            <div className="md:flex md:flex-row">
-                <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+            <div className="md:flex md:flex-row md:justify-evenly">
+                <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] md:w-[500px] rounded-2xl">
                     <p className="text-2xl pt-8">Popular Repo</p>
                     <div>
                         <p>project-name-from-yr-repo</p>
@@ -90,7 +90,7 @@ const home = () => {
                         <p>4 </p>
                     </div>
                 </div>
-                <div className=" flex flex-col p-4 mt-10 bg-[#C2F6FF08] rounded-2xl">
+                <div className=" flex flex-col p-4 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[550px]">
                     <div className="flex flex-row justify-between pb-6">
                         <p className="text-xl">My Github Contribution</p>
                         <div className=" bg-[#38ACFF40] rounded-2xl p-2"><p className="text-[#76C6FF]">2024</p></div>
