@@ -43,15 +43,15 @@ const home = () => {
                             </div>
                         </div>
                 </div>
-                <div>
-                    <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
+                <div className="md:w-[370px] ">
+                    <div className=" flex flex-col p-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl  md:w-[200px] md:h-[150px]">
                         <img src={Img} alt="img" />
                         <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
                             <p>view works</p>
                             <img src={Foldericone} alt="folder-icone" />
                         </button>
                     </div>
-                    <div className=" flex flex-col p-6 mt-10 items-center h-[200px]  bg-[#C2F6FF08] rounded-2xl">
+                    <div className=" flex flex-col p-6 mt-10 items-center h-[200px]  bg-[#C2F6FF08] rounded-2xl md:w-[200px] md:h-[150px] ">
                         <p className="font-semibold">My Skills</p>
                         <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
                             <p>More About Me</p>
