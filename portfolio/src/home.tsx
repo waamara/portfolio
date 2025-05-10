@@ -59,7 +59,7 @@ const home = () => {
                         </button>
                     </div>
                 </div>
-                <div className=" ">
+                <div className="">
                     <div className=" md:w-[300px] ">
                         <img src={Mypic} alt="My-img " />
                     </div>
