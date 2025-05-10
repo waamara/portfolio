@@ -15,33 +15,33 @@ const home = () => {
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
             <div className="md:flex md:flex-row md:justify-around">
-                <div className="md:w-[800px]">
-                    <div>
-                        <p className="text-2xl font-semibold">Hello it's Aymen </p> <br />
-                        <p>I'm a frontend developer with a passion for crafting pixel-perfect, user-friendly interfaces. I believe in clean, efficient code and building responsive websites that provide the best user experience, no matter the device.</p>
-                    </div>
-                    <div className='flex flex-col pt-4'>
-                        <div className='flex flex-row items-center justify-between '>
-                            <p className="font-semibold">Resume</p>
-                            <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
-                                <p>See cv </p>
-                                <img src={Seepng} alt="icone" />
-                            </button>
-                            <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
-                                <p>Dowland Cv </p>
-                                <img src={Dowlandpng} alt="icone" />
-                            </button>
+                <div className="md:w-[370px]">
+                        <div>
+                            <p className="text-2xl font-semibold">Hello it's Aymen </p> <br />
+                            <p>I'm a frontend developer with a passion for crafting pixel-perfect, user-friendly interfaces. I believe in clean, efficient code and building responsive websites that provide the best user experience, no matter the device.</p>
                         </div>
-                        <div className='flex flex-row items-center justify-between pt-4'>
-                            <p className="font-semibold">Follow On</p>
-                            <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                href="linkedin.com/in/aymen-berbiche-772a13280">Linkedin</a>
-                            <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                href="">Instagram</a>
-                            <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                href="https://github.com/waamara">Github</a>
+                        <div className='flex flex-col pt-4'>
+                            <div className='flex flex-row items-center justify-between '>
+                                <p className="font-semibold">Resume</p>
+                                <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
+                                    <p>See cv </p>
+                                    <img src={Seepng} alt="icone" />
+                                </button>
+                                <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
+                                    <p>Dowland Cv </p>
+                                    <img src={Dowlandpng} alt="icone" />
+                                </button>
+                            </div>
+                            <div className='flex flex-row items-center justify-between pt-4'>
+                                <p className="font-semibold">Follow On</p>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="linkedin.com/in/aymen-berbiche-772a13280">Linkedin</a>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="">Instagram</a>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="https://github.com/waamara">Github</a>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <div>
                     <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] rounded-2xl">
@@ -59,7 +59,7 @@ const home = () => {
                         </button>
                     </div>
                 </div>
-                <div className="md:">
+                <div className="md:w-[400px]">
                     <div className="p-12">
                         <img src={Mypic} alt="My-img " />
                     </div>
