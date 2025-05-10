@@ -10,14 +10,16 @@ const Contact = () => {
         <div style={{
             backgroundImage: `url($Bgimg)`,
         }}
-            className="text-white bg-[#0A0B10] bg-cover md:flex md:flex-row  p-8 h-svh">
+            className="text-white bg-[#0A0B10] bg-cover md:flex md:flex-row md:justify-around p-8 h-svh">
             <div>
                 <div >
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
                     <div className="flex flex-col mt-12">
-                        <input type="text" placeholder="Full Name" className=" pt-5 pb-5 pl-2 mb-4" />
-                        <input type="text" placeholder="Email" className=" pt-5 pb-5 pl-2 mb-4" />
+                        <div>
+                            <input type="text" placeholder="Full Name" className=" pt-5 pb-5 pl-2 mb-4" />
+                            <input type="text" placeholder="Email" className=" pt-5 pb-5 pl-2 mb-4" />
+                        </div>
                         <input type="text" placeholder="Message" className=" pt-5 pb-5 pl-2 mb-4" />
                         <button className="bg-[#4D8FCD] rounded-xl  w-[150px] h-[50px]  font-semibold ">Send Message </button>
                     </div> </div>
