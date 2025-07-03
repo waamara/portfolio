@@ -37,13 +37,13 @@ const home = () => {
                             <p className="font-semibold text-3xl">Get In Touch</p>
                         </div>
                         <div className="flex flex-row">
-                            <div>
+                            <div className="bg-amber-200 w-[200px] h-[200px] rounded ">
                                 <a className="bg-[#C2F6FF08] p-2 rounded-md"
                                     href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
                             </div>
                             <div>
                                 <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="">Follow on Instagram</a>
+                                    href="">Follow on Email</a>
                             </div>
                             <div>
                                 <a className="bg-[#C2F6FF08] p-2 rounded-md"
