@@ -8,6 +8,7 @@ import Img from "../../portfolio/src/assets/img.png"
 import More from "../../portfolio/src/assets/More.png"
 import Fram from "../../portfolio/src/assets/Frame.png"
 import Views from "../../portfolio/src/assets/Mac Studio 1.png"
+import Myphoto from "../src/assets/1741356507458 1.png"
 
 
 
@@ -15,7 +16,6 @@ import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
 import Emaili from "../src/assets/Overlay+Shadow (5).png"  
 import Arrow from "../src/assets/Arrow 1.png"
-import Myphoto from "../src/assets/1741356507458 1.png"
 
 
 const home = () => {
@@ -96,6 +96,20 @@ const home = () => {
             <br />
             <hr />
             <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
+                <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
+                <div>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+
+                        <p>berbicheaymen@gmail.com</p>
+                    </div>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+
+                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
                 <div>
                 <img src={Myphoto} alt="Mypicture" />    
                 </div>
