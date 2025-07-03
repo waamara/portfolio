@@ -22,15 +22,15 @@ const home = () => {
                     <div className='flex flex-row justify-center text-center mt-4 pt-2 pb-4  bg-gray-800 rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row">
                             <img src={Pointimg} alt="icone" className="w-8 h-8" />
-                            <p className="text-3xl pl-8 font-bold">Available For work</p>
+                            <p className="text-xl pl-8 font-bold">Available For work</p>
                         </div>
                     </div>
                 </div>
                 <div className="pt-10">
                     <div className="bg-gray-800 p-4 rounded-2xl">
-                        <p className="text-4xl font-semibold ">Introduction </p> <br />
-                        <p>I'm Aymen, a passionate frontend developer and a computer science student at USTHBI'm Aymen, a passionate frontend developer and a computer science student at USTHB</p>
-                        <p>“ user-friendly web applications using the latest “</p>
+                        <p className="text-3xl font-semibold ">Introduction </p> <br />
+                        <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a <br /> passionate frontend developer and a computer science student at USTHB</p>
+                        <p className="text-blue-600 mt-3">“ user-friendly web applications using the latest “</p>
                     </div>
                     <div className='flex flex-col  pt-4'>
                         <div className='flex flex-row items-center justify-between pt-4'>
