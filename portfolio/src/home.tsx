@@ -29,7 +29,7 @@ const home = () => {
                 <div className="pt-10">
                     <div className="bg-gray-800 p-4 rounded-2xl">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
-                        <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a <br /> passionate frontend developer and a computer science student at USTHB</p>
+                        <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
                         <p className="text-blue-600 mt-3">“ user-friendly web applications using the latest “</p>
                     </div>
                     <div className='flex flex-col  pt-4'>
