@@ -71,9 +71,9 @@ const home = () => {
                         <img src={Views} alt="img" />
                 </div>
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[700px]">
-                    <p>Testamonial </p> 
-                    <p>About 40% of what you do, day in and day out, is done purely out of ha</p> 
-                    <a href="">more on my LinkedIn</a>
+                    <p className="text-2xl mb-2">Testamonial </p> 
+                    <p className="mb-3">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p> 
+                    <a href="">More on my LinkedIn</a>
                     <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6">
