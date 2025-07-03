@@ -14,9 +14,9 @@ const home = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
-            <div className="md:flex md:flex-row md:justify-around">
-                <div className="">
-                    <div className=" md:w-[300px] ">
+            <div className="md:flex md:flex-row ">
+                <div className="p-20">
+                    <div className=" w-[500px] ">
                         <img src={Mypic} alt="My-img " className="rounded-xl" />
                     </div>
                     <div className='flex flex-row justify-evenly mt-3 bg-gray-800 rounded-2xl'>
@@ -26,7 +26,7 @@ const home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:w-[600px]">
+                <div className="">
                     <div className="bg-gray-800 p-4 rounded-2xl">
                         <p className="text-2xl font-semibold ">Introduction </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science student at USTHBI'm Aymen, a passionate frontend developer and a computer science student at USTHB</p>
