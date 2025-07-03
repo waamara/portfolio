@@ -19,10 +19,10 @@ const home = () => {
                     <div className=" w-[500px] ">
                         <img src={Mypic} alt="My-img " className="rounded-xl" />
                     </div>
-                    <div className='flex flex-row justify-evenly mt-3 bg-gray-800 rounded-2xl'>
-                        <div className=" bg-[#dadada08] p-2 rounded-md flex flex-row">
-                            <img src={Pointimg} alt="icone" />
-                            <p className="text-2xl">Available For work</p>
+                    <div className='flex flex-row justify-center text-center mt-4 pt-2 pb-4  bg-gray-800 rounded-2xl'>
+                        <div className="  mt-4  rounded-md flex flex-row">
+                            <img src={Pointimg} alt="icone" className="w-8 h-8" />
+                            <p className="text-3xl pl-8 font-bold">Available For work</p>
                         </div>
                     </div>
                 </div>
