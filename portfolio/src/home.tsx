@@ -95,7 +95,7 @@ const home = () => {
             </div>
             <br />
             <hr />
-            <div>
+            <div className="flex flex-row justify-around"> 
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
                     <div>
                         <img src={Myphoto} alt="Mypicture" />
