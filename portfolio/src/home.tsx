@@ -15,6 +15,7 @@ import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
 import Emaili from "../src/assets/Overlay+Shadow (5).png"  
 import Arrow from "../src/assets/Arrow 1.png"
+import Myphoto from "../src/assets/1741356507458 1.png"
 
 
 const home = () => {
@@ -43,7 +44,7 @@ const home = () => {
                     </div>
                     <div className='flex flex-col  pt-4 ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
-                            <p className="font-semibold text-3xl">Get In Touch</p>
+                            <p className="font-semibold text-3xl mb-3">Get In Touch</p>
                         </div>
                         <div className="flex flex-row space-x-5">
                             <div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
@@ -95,17 +96,15 @@ const home = () => {
             <br />
             <hr />
             <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
-                <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
-                <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
                 <div>
-                    <div className="flex flex-row pt-4 border-b-2 border-gray">
-
-                        <p>berbicheaymen@gmail.com</p>
-                    </div>
-                    <div className="flex flex-row pt-4 border-b-2 border-gray">
-
-                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
-                    </div>
+                <img src={Myphoto} alt="Mypicture" />    
+                </div>
+                <div>
+                    <p>What makes technology so habit-forming?</p> 
+                    <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p> 
+                </div>
+                <div>
+                    content
                 </div>
             </div>
         </div>
