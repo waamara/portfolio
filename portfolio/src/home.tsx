@@ -65,12 +65,12 @@ const home = () => {
             <br />
             <hr />
             <div className="flex flex-row">
-                <div className="  p-10 m-12  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[400px] ">
-                        <p>View All Works</p>
+                <div className="  p-8 m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[500px] ">
+                        <p className="text-2xl text-center">View All Works</p>
                         <img src={Views} alt="img" />
                 </div>
-                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[650px]">
-                    <p>View All Works</p>
+                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[700px]">
+                    <p>Testemonial</p>
                     <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6">
