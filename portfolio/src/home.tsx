@@ -44,18 +44,18 @@ const home = () => {
                             <p className="font-semibold text-3xl">Get In Touch</p>
                         </div>
                         <div className="flex flex-row">
-                            <div className="bg-amber-200 w-[200px] h-[200px] rounded ">
+                            <div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" />
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                <a className=" pl-4 pb-12 rounded-md"
                                     href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
-                            </div>
-                            <div>
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="">Follow on Email</a>
-                            </div>
-                            <div>
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="https://github.com/waamara">Follow on Github</a>
+                            </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
+                                <img src={Githubi} alt="instagram-icone" />
+                                <a className=" pl-4 pb-12 rounded-md"
+                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
+                            </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
+                                <img src={Githubi} alt="instagram-icone" />
+                                <a className=" pl-4 pb-12 rounded-md"
+                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
                             </div>
                         </div>
                     </div>
