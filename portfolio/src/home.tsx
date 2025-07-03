@@ -10,9 +10,9 @@ import Fram from "../../portfolio/src/assets/Frame.png"
 
 
 
-import Emaili from "../src/assets/Overlay+Shadow (1).png"
+import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
-import Instagrami from "../src/assets/Overlay+Shadow (5).png"
+import Emaili from "../src/assets/Overlay+Shadow (5).png"
 
 
 const home = () => {
@@ -47,13 +47,13 @@ const home = () => {
                             <div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
+                                    href="https://github.com/waamara">Follow on Githuib</a>
                             </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Githubi} alt="instagram-icone" />
+                                <img src={Emaili} alt="instagram-icone" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
+                                    href="berbicheaymen@gmail.com">Follow on Email</a>
                             </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Githubi} alt="instagram-icone" />
+                                <img src={Linkdini} alt="instagram-icone" />
                                 <a className=" pl-4 pb-12 rounded-md"
                                     href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
                             </div>
