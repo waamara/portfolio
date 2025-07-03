@@ -14,7 +14,7 @@ import Myphoto from "../src/assets/1741356507458 1.png"
 
 import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
-import Emaili from "../src/assets/Overlay+Shadow (5).png"  
+import Emaili from "../src/assets/Overlay+Shadow (5).png"
 import Arrow from "../src/assets/Arrow 1.png"
 
 
@@ -68,12 +68,12 @@ const home = () => {
             <hr />
             <div className="flex flex-row">
                 <div className="  p-8 m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[500px] ">
-                        <p className="text-2xl text-center">View All Works</p>
-                        <img src={Views} alt="img" />
+                    <p className="text-2xl text-center">View All Works</p>
+                    <img src={Views} alt="img" />
                 </div>
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[700px]">
-                    <p className="text-2xl mb-2">Testamonial </p> 
-                    <p className="mb-3 text-gray-500 ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p> 
+                    <p className="text-2xl mb-2">Testamonial </p>
+                    <p className="mb-3 text-gray-500 ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-blue-800 mb-4 flex flex-row text-center"> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
                     <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
                         <div className="flex flex-row  pb-4 ">
@@ -95,29 +95,31 @@ const home = () => {
             </div>
             <br />
             <hr />
-               <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
-                <div>
-                <img src={Myphoto} alt="Mypicture" />    
-                </div>
-                <div>
-                    <p>What makes technology so habit-forming?</p> 
-                    <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p> 
-                </div>
-                <div>
-                    content
-                </div>
-            </div>
-            <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
-                <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
-                <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
-                <div>
-                    <div className="flex flex-row pt-4 border-b-2 border-gray">
-
-                        <p>berbicheaymen@gmail.com</p>
+            <div>
+                <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                    <div>
+                        <img src={Myphoto} alt="Mypicture" />
                     </div>
-                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+                    <div>
+                        <p>What makes technology so habit-forming?</p>
+                        <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p>
+                    </div>
+                    <div>
+                        content
+                    </div>
+                </div>
+                <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                    <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
+                    <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
+                    <div>
+                        <div className="flex flex-row pt-4 border-b-2 border-gray">
 
-                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
+                            <p>berbicheaymen@gmail.com</p>
+                        </div>
+                        <div className="flex flex-row pt-4 border-b-2 border-gray">
+
+                            <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
+                        </div>
                     </div>
                 </div>
             </div>
