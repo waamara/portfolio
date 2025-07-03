@@ -15,8 +15,8 @@ const home = () => {
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
             <div className="md:flex md:flex-row ">
-                <div className="p-20">
-                    <div className=" w-[500px] ">
+                <div className="p-10">
+                    <div className=" w-[300px] ">
                         <img src={Mypic} alt="My-img " className="rounded-xl" />
                     </div>
                     <div className='flex flex-row justify-center text-center mt-4 pt-2 pb-4  bg-gray-800 rounded-2xl'>
@@ -26,9 +26,9 @@ const home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="pt-10">
                     <div className="bg-gray-800 p-4 rounded-2xl">
-                        <p className="text-2xl font-semibold ">Introduction </p> <br />
+                        <p className="text-4xl font-semibold ">Introduction </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science student at USTHBI'm Aymen, a passionate frontend developer and a computer science student at USTHB</p>
                         <p>“ user-friendly web applications using the latest “</p>
                     </div>
