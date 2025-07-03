@@ -15,87 +15,93 @@ const home = () => {
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
             <div className="md:flex md:flex-row md:justify-around">
-                <div className="md:w-[370px]">
-                        <div>
-                            <p className="text-2xl font-semibold">Hello it's Aymen </p> <br />
-                            <p>I'm a frontend developer with a passion for crafting pixel-perfect, user-friendly interfaces. I believe in clean, efficient code and building responsive websites that provide the best user experience, no matter the device.</p>
-                        </div>
-                        <div className='flex flex-col pt-4'>
-                            <div className='flex flex-row items-center justify-between '>
-                                <p className="font-semibold">Resume</p>
-                                <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
-                                    <p>See cv </p>
-                                    <img src={Seepng} alt="icone" />
-                                </button>
-                                <button className="flex flex-row bg-[#C2F6FF08] p-2 rounded-md">
-                                    <p>Dowland Cv </p>
-                                    <img src={Dowlandpng} alt="icone" />
-                                </button>
-                            </div>
-                            <div className='flex flex-row items-center justify-between pt-4'>
-                                <p className="font-semibold">Follow On</p>
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="linkedin.com/in/aymen-berbiche-772a13280">Linkedin</a>
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="">Instagram</a>
-                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
-                                    href="https://github.com/waamara">Github</a>
-                            </div>
-                        </div>
-                </div>
-                <div className="md:w-[370px] ">
-                    <div className=" flex flex-col p-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl  md:w-[200px] md:h-[150px]">
-                        <img src={Img} alt="img" />
-                        <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
-                            <p>view works</p>
-                            <img src={Foldericone} alt="folder-icone" />
-                        </button>
-                    </div>
-                    <div className=" flex flex-col p-6 mt-10 items-center h-[200px]  bg-[#C2F6FF08] rounded-2xl md:w-[200px] md:h-[150px] ">
-                        <p className="font-semibold">My Skills</p>
-                        <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
-                            <p>More About Me</p>
-                            <img src={More} alt="folder-icone" />
-                        </button>
-                    </div>
-                </div>
                 <div className="">
                     <div className=" md:w-[300px] ">
-                        <img src={Mypic} alt="My-img " />
+                        <img src={Mypic} alt="My-img " className="rounded-xl" />
                     </div>
-                    <div className='flex flex-row justify-evenly md:h-[30px]'>
-                        <div className=" bg-[#C2F6FF08] p-2 rounded-md flex flex-row">
+                    <div className='flex flex-row justify-evenly mt-3 bg-gray-800 rounded-2xl'>
+                        <div className=" bg-[#dadada08] p-2 rounded-md flex flex-row">
                             <img src={Pointimg} alt="icone" />
                             <p className="text-2xl">Available For work</p>
                         </div>
-                        <div className=" bg-[#C2F6FF08] p-2 rounded-md flex flex-row">
-                            <img src={Pointimg} alt="icone" />
-                            <p className="text-2xl">Algeria</p>
+                    </div>
+                </div>
+                <div className="md:w-[600px]">
+                    <div className="bg-gray-800 p-4 rounded-2xl">
+                        <p className="text-2xl font-semibold ">Introduction </p> <br />
+                        <p>I'm Aymen, a passionate frontend developer and a computer science student at USTHBI'm Aymen, a passionate frontend developer and a computer science student at USTHB</p>
+                        <p>“ user-friendly web applications using the latest “</p>
+                    </div>
+                    <div className='flex flex-col  pt-4'>
+                        <div className='flex flex-row items-center justify-between pt-4'>
+                            <p className="font-semibold text-3xl">Get In Touch</p>
+                        </div>
+                        <div className="flex flex-row">
+                            <div>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
+                            </div>
+                            <div>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="">Follow on Instagram</a>
+                            </div>
+                            <div>
+                                <a className="bg-[#C2F6FF08] p-2 rounded-md"
+                                    href="https://github.com/waamara">Follow on Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <br />
+            <hr />
+            <div className="flex flex-row">
+                <div className=" flex flex-col p-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl  md:w-[200px] md:h-[150px]">
+                    <img src={Img} alt="img" />
+                    <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
+                        <p>view works</p>
+                        <img src={Foldericone} alt="folder-icone" />
+                    </button>
+                </div>
+                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[650px]">
+                    <div className="flex flex-row  pb-6">
+                        <p className="text-2xl font-semibold">Testamonial </p>
+
+                    </div>
+                    <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
+                        <div className="flex flex-row  pb-4 ">
+                            <div className="pr-6">
+                                <img src={Mypic} alt="picture-of-the-talker"
+                                    className="w-14 rounded-xl" />
+                            </div>
+                            <div>
+                                <p className="text-xl">Full Name</p>
+                                <p>role lorem ipsum</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur iscing elit, sed do eiusmod tempor incididunt ut labore elit, </p>
+                            <p className="pt-2 text-[#FFFFFFCC]">17 oct 2024</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="md:flex md:flex-row md:justify-evenly">
-                <div className=" flex flex-col p-10 mt-10 items-center justify-center bg-[#C2F6FF08] md:w-[500px] rounded-2xl">
-                    <p className="text-2xl pt-8">Popular Repo</p>
-                    <div>
-                        <p>project-name-from-yr-repo</p>
-                        <p>Public</p>
+            <br />
+            <hr />
+            <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
+                <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
+                <div>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+
+                        <p>berbicheaymen@gmail.com</p>
                     </div>
-                    <div>
-                        <p>simple note app using Javascript...</p>
+                    <div className="flex flex-row pt-4 border-b-2 border-gray">
+
+                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
                     </div>
-                    <div>
-                        <p>Javascript </p>
-                        <p>4 </p>
-                    </div>
-                </div>
-                <div className=" flex flex-col p-4 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[550px]">
-                    <div className="flex flex-row justify-between pb-6">
-                        <p className="text-xl">My Github Contribution</p>
-                        <div className=" bg-[#38ACFF40] rounded-2xl p-2"><p className="text-[#76C6FF]">2024</p></div>
-                    </div>
-                    <img src={Fram} alt="Github-contribution-img" />
                 </div>
             </div>
         </div>
