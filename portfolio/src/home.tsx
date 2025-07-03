@@ -96,16 +96,13 @@ const home = () => {
             <br />
             <hr />
             <div className="flex flex-row justify-around"> 
-                <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                <div className=" flex flex-row p-6 mt-10 items-center justify-center   md:w-[600px] bg-[#C2F6FF08] rounded-2xl">
                     <div>
                         <img src={Myphoto} alt="Mypicture" />
                     </div>
-                    <div>
-                        <p>What makes technology so habit-forming?</p>
-                        <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p>
-                    </div>
-                    <div>
-                        content
+                    <div className="ml-4">
+                        <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
+                        <p>About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
