@@ -1,4 +1,4 @@
-import Image from "../../portfolio/src/assets/work.png"
+
 
 const Works = () => {
     return (

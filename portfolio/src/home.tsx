@@ -61,15 +61,13 @@ const home = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <br />
             <hr />
             <div className="flex flex-row">
-                <div className=" flex flex-col p-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl  md:w-[200px] md:h-[150px]">
-                        <p>view works</p>
-                        <img src={Views} alt="img " />
+                <div className="  p-10 m-12  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[400px] ">
+                        <p>View All Works</p>
+                        <img src={Views} alt="img" />
                 </div>
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[650px]">
                     <p>View All Works</p>

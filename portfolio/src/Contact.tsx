@@ -1,4 +1,4 @@
-import Bgimg from "../../portfolio/src/assets/backgr.png"
+
 import Linkedin from "../../portfolio/src/assets/email (7).png"
 import Email from "../../portfolio/src/assets/email (1).png"
 import Instagram from "../../portfolio/src/assets/Instagram.png"
