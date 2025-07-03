@@ -95,6 +95,18 @@ const home = () => {
             </div>
             <br />
             <hr />
+               <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
+                <div>
+                <img src={Myphoto} alt="Mypicture" />    
+                </div>
+                <div>
+                    <p>What makes technology so habit-forming?</p> 
+                    <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p> 
+                </div>
+                <div>
+                    content
+                </div>
+            </div>
             <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
                 <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
                 <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
@@ -107,18 +119,6 @@ const home = () => {
 
                         <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
                     </div>
-                </div>
-            </div>
-            <div className=" flex flex-row p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
-                <div>
-                <img src={Myphoto} alt="Mypicture" />    
-                </div>
-                <div>
-                    <p>What makes technology so habit-forming?</p> 
-                    <p>About 40% of what you do, day in and day out, is done  Nir Eyal decodes how technology ...</p> 
-                </div>
-                <div>
-                    content
                 </div>
             </div>
         </div>
