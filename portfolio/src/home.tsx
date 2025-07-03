@@ -39,11 +39,11 @@ const home = () => {
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
                         <p className="text-blue-600 mt-3">“ user-friendly web applications using the latest “</p>
                     </div>
-                    <div className='flex flex-col  pt-4'>
+                    <div className='flex flex-col  pt-4 ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
                             <p className="font-semibold text-3xl">Get In Touch</p>
                         </div>
-                        <div className="flex flex-row">
+                        <div className="flex flex-row space-x-5">
                             <div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" />
                                 <a className=" pl-4 pb-12 rounded-md"
