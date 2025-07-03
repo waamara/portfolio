@@ -7,6 +7,7 @@ import Foldericone from "../../portfolio/src/assets/folder.png"
 import Img from "../../portfolio/src/assets/img.png"
 import More from "../../portfolio/src/assets/More.png"
 import Fram from "../../portfolio/src/assets/Frame.png"
+import Views from "../../portfolio/src/assets/Mac Studio 1.png"
 
 
 
@@ -67,17 +68,11 @@ const home = () => {
             <hr />
             <div className="flex flex-row">
                 <div className=" flex flex-col p-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl  md:w-[200px] md:h-[150px]">
-                    <img src={Img} alt="img" />
-                    <button className="bg-[#38ACFF40] p-2 rounded-md flex flex-row">
                         <p>view works</p>
-                        <img src={Foldericone} alt="folder-icone" />
-                    </button>
+                        <img src={Views} alt="img " />
                 </div>
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[650px]">
-                    <div className="flex flex-row  pb-6">
-                        <p className="text-2xl font-semibold">Testamonial </p>
-
-                    </div>
+                    <p>View All Works</p>
                     <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6">
