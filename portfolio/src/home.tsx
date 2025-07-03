@@ -8,6 +8,13 @@ import Img from "../../portfolio/src/assets/img.png"
 import More from "../../portfolio/src/assets/More.png"
 import Fram from "../../portfolio/src/assets/Frame.png"
 
+
+
+import Emaili from "../src/assets/Overlay+Shadow (1).png"
+import Githubi from "../src/assets/Overlay+Shadow (4).png"
+import Instagrami from "../src/assets/Overlay+Shadow (5).png"
+
+
 const home = () => {
     return (
         <div style={{
@@ -38,6 +45,7 @@ const home = () => {
                         </div>
                         <div className="flex flex-row">
                             <div className="bg-amber-200 w-[200px] h-[200px] rounded ">
+                                <img src={Githubi} alt="instagram-icone" />
                                 <a className="bg-[#C2F6FF08] p-2 rounded-md"
                                     href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
                             </div>
