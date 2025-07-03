@@ -107,17 +107,8 @@ const home = () => {
                 </div>
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
                     <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
-                    <p>Feel free to reach out anytime you <br /> have a project idea – I’d love to <br /> collaborate!</p>
-                    <div>
-                        <div className="flex flex-row pt-4 border-b-2 border-gray">
-
-                            <p>berbicheaymen@gmail.com</p>
-                        </div>
-                        <div className="flex flex-row pt-4 border-b-2 border-gray">
-
-                            <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
-                        </div>
-                    </div>
+                    <p>Feel free to reach out anytime you <br /> have a project idea </p>
+                    <p>Come say hii :)</p>
                 </div>
             </div>
         </div>
