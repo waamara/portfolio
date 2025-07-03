@@ -13,7 +13,8 @@ import Views from "../../portfolio/src/assets/Mac Studio 1.png"
 
 import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
-import Emaili from "../src/assets/Overlay+Shadow (5).png"
+import Emaili from "../src/assets/Overlay+Shadow (5).png"  
+import Arrow from "../src/assets/Arrow 1.png"
 
 
 const home = () => {
@@ -70,7 +71,9 @@ const home = () => {
                         <img src={Views} alt="img" />
                 </div>
                 <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[700px]">
-                    <p>Testemonial</p>
+                    <p>Testamonial </p> 
+                    <p>About 40% of what you do, day in and day out, is done purely out of ha</p> 
+                    <a href="">more on my LinkedIn</a>
                     <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6">
