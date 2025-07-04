@@ -69,7 +69,7 @@ const home = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
-                <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[580px] ">
+                <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[570px] ">
                     <p className="text-2xl text-center pt-4">View All Works</p>
                     <img src={Views} alt="img" className="h-[300px]" />
                 </div>
@@ -108,7 +108,23 @@ const home = () => {
                     </div>
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
-                        <p>About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
+                        <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
+                        <div className="flex flex-row">
+                          
+                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-2xl">
+                                <p>Backend </p>
+                            </div>
+                        
+                        
+                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-2xl">
+                                <p>Backend </p>
+                            </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-2xl">
+                                <p>Backend </p>
+                            </div>
+                        </div>
+                        
+                            
+                       
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[500px] bg-[#C2F6FF08] rounded-2xl">
