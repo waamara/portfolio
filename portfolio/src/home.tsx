@@ -16,6 +16,7 @@ import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
 import Emaili from "../src/assets/Overlay+Shadow (5).png"
 import Arrow from "../src/assets/Arrow 1.png"
+import Switch from "../src/assets/switch.png"
 
 
 const home = () => {
@@ -24,7 +25,7 @@ const home = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
-                <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="p-10">
                     <div className=" w-[300px] ">
@@ -66,7 +67,7 @@ const home = () => {
                 </div>
             </div>
             <br />
-            <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
                 <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[580px] ">
                     <p className="text-2xl text-center pt-4">View All Works</p>
@@ -76,7 +77,7 @@ const home = () => {
                     <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14]  p-4 "> 
+                    <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14]  p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6 ">
                                 <img src={Mypic} alt="picture-of-the-talker"
@@ -89,14 +90,18 @@ const home = () => {
                         </div>
                         <div>
                             <p>Lorem ipsum dolor sit amet, consectetur iscing <br /> elit, sed do eiusmod tempor incididunt ut <br /> labore elit, tempor incididunt ut labore . </p>
-                            <p className="pt-2 text-[#FFFFFFCC]">17 oct 2024</p>
+                            <div className="flex justify-end -mt-5">
+                            <button >
+                                <img src={Switch} alt="Switch" />
+                            </button>
+                            </div>            
                         </div>
                     </div>
                 </div>
             </div>
             <br />
-            <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
-            <div className="flex flex-row justify-around"> 
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
+            <div className="flex flex-row justify-around">
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center   md:w-[600px] bg-[#C2F6FF08] rounded-2xl">
                     <div>
                         <img src={Myphoto} alt="Mypicture" />
