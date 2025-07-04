@@ -28,7 +28,7 @@ const home = () => {
             <div className="md:flex md:flex-row ">
                 <div className="p-10">
                     <div className=" w-[300px] ">
-                        <img src={Mypic} alt="My-img " className="rounded-xl" />
+                        <img src={Mypic} alt="My-img " className="rounded-xl h-[320px]" />
                     </div>
                     <div className='flex flex-row justify-center text-center mt-4  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
@@ -37,7 +37,7 @@ const home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-10">
+                <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
