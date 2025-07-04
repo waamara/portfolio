@@ -7,13 +7,17 @@ const Header = () => {
             style={{
                 backgroundImage: `url(${Bgimg})`,
             }}
-            className="text-white bg-gray-950 opacity-100 p-8"
+            className="text-white bg-gray-950 opacity-100 pt-10 pl-18 pr-20"
         >
-            <nav className="flex gap-4">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/works">Works</Link>
-                <Link to="/contact">Get in Touch</Link>
+            <nav className="flex gap-4 justify-between  ">
+                <div className="flex gap-10">
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/works">Works</Link>
+                </div>
+                <div>
+                    <Link to="/contact">Get in Touch</Link>
+                </div>
             </nav>
         </div>
     );
