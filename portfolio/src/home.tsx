@@ -41,25 +41,25 @@ const home = () => {
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
-                        <p className="text-blue-600 mt-2">“ user-friendly web applications using the latest “</p>
+                        <p className="text-[#55A4FF] mt-2">“ user-friendly web applications using the latest “</p>
                     </div>
-                    <div className='flex flex-col  pt-2 ' >
+                    <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
-                            <p className="font-semibold text-3xl mb-3">Get In Touch</p>
+                            <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
                         <div className="flex flex-row space-x-5">
-                            <div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Githubi} alt="instagram-icone" />
+                            <div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                                <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="https://github.com/waamara">Follow on Githuib</a>
-                            </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Emaili} alt="instagram-icone" />
+                                    href="https://github.com/waamara">Follow On Github</a>
+                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                                <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="berbicheaymen@gmail.com">Follow on Email</a>
-                            </div><div className="bg-gray-900 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Linkdini} alt="instagram-icone" />
+                                    href="berbicheaymen@gmail.com">Follow On Email</a>
+                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                                <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow on Linkedin</a>
+                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow On Linkedin</a>
                             </div>
                         </div>
                     </div>
