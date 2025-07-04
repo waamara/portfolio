@@ -68,17 +68,17 @@ const home = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
             <div className="flex flex-row">
-                <div className="  p-8 m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[500px] ">
-                    <p className="text-2xl text-center">View All Works</p>
+                <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[500px] ">
+                    <p className="text-2xl text-center pt-4">View All Works</p>
                     <img src={Views} alt="img" />
                 </div>
-                <div className=" flex flex-col p-6 mt-10 bg-[#C2F6FF08] rounded-2xl md:w-[700px]">
-                    <p className="text-2xl mb-2">Testamonial </p>
-                    <p className="mb-3 text-gray-500 ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
-                    <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-blue-800 mb-4 flex flex-row text-center"> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <div className="flex flex-col rounded-xl bg-[#101526] p-4 ">
+                <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[700px]">
+                    <p className="text-3xl mb-2  ">Testamonial </p>
+                    <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
+                    <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
+                    <div className="flex flex-col rounded-xl bg-[#131314]  p-4 "> 
                         <div className="flex flex-row  pb-4 ">
-                            <div className="pr-6">
+                            <div className="pr-6 ">
                                 <img src={Mypic} alt="picture-of-the-talker"
                                     className="w-14 rounded-xl" />
                             </div>
@@ -88,7 +88,7 @@ const home = () => {
                             </div>
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur iscing elit, sed do eiusmod tempor incididunt ut labore elit, </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur iscing <br /> elit, sed do eiusmod tempor incididunt ut <br /> labore elit, tempor incididunt ut labore . </p>
                             <p className="pt-2 text-[#FFFFFFCC]">17 oct 2024</p>
                         </div>
                     </div>
