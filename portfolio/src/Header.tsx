@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Bgimg from "../src/assets/backgr.png";
+import Icone from "../src/assets/icon.png"
 
 const Header = () => {
     return (
@@ -15,8 +16,9 @@ const Header = () => {
                     <Link to="/about">About</Link>
                     <Link to="/works">Works</Link>
                 </div>
-                <div>
+                <div className="flex flex-row justify-center text-center gap-4">
                     <Link to="/contact">Get in Touch</Link>
+                    <img src={Icone} alt="icone " className="w-[20px] h-[20px]" />
                 </div>
             </nav>
         </div>
