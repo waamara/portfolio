@@ -30,20 +30,20 @@ const home = () => {
                     <div className=" w-[300px] ">
                         <img src={Mypic} alt="My-img " className="rounded-xl" />
                     </div>
-                    <div className='flex flex-row justify-center text-center mt-4 pt-2 pb-4  bg-gray-800 rounded-2xl'>
-                        <div className="  mt-4  rounded-md flex flex-row">
-                            <img src={Pointimg} alt="icone" className="w-8 h-8" />
+                    <div className='flex flex-row justify-center text-center mt-4  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
+                        <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
+                            <img src={Pointimg} alt="icone" className="w-4 h-4 " />
                             <p className="text-xl pl-8 font-bold">Available For work</p>
                         </div>
                     </div>
                 </div>
                 <div className="pt-10">
-                    <div className="bg-gray-800 p-4 rounded-2xl">
+                    <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
-                        <p className="text-blue-600 mt-3">“ user-friendly web applications using the latest “</p>
+                        <p className="text-blue-600 mt-2">“ user-friendly web applications using the latest “</p>
                     </div>
-                    <div className='flex flex-col  pt-4 ' >
+                    <div className='flex flex-col  pt-2 ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
                             <p className="font-semibold text-3xl mb-3">Get In Touch</p>
                         </div>
