@@ -73,7 +73,7 @@ const home = () => {
                     <img src={Views} alt="img" className="h-[300px]" />
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
-                    <p className="text-3xl mb-2  ">Testamonial </p>
+                    <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
                     <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14]  p-4 "> 
