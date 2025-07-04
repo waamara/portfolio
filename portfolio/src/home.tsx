@@ -66,7 +66,7 @@ const home = () => {
                 </div>
             </div>
             <br />
-            <hr />
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
             <div className="flex flex-row">
                 <div className="  p-8 m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[500px] ">
                     <p className="text-2xl text-center">View All Works</p>
@@ -95,7 +95,7 @@ const home = () => {
                 </div>
             </div>
             <br />
-            <hr />
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8"  />
             <div className="flex flex-row justify-around"> 
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center   md:w-[600px] bg-[#C2F6FF08] rounded-2xl">
                     <div>
