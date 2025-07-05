@@ -30,14 +30,14 @@ const home = () => {
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
-                <div className="p-10">
+                <div className="p-10 ">
                     <TiltedCard 
                         imageSrc={Me}
                         altText="Aymen Berbiche"
                         captionText="Aymen Berbiche - Software Engineer"
                         containerHeight="300px"
                         containerWidth="300px"
-                        imageHeight="300px"
+                        imageHeight="345px"
                         imageWidth="300px"
                         rotateAmplitude={15}
                         scaleOnHover={1.05}
@@ -45,7 +45,7 @@ const home = () => {
                         displayOverlayContent={false}
                     />
 
-                    <div className='flex flex-row justify-center text-center mt-4  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
+                    <div className='flex flex-row justify-center text-center mt-14  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
                             <img src={Pointimg} alt="icone" className="w-4 h-4 " />
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
@@ -55,7 +55,13 @@ const home = () => {
                 <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
-                        <p>I'm Aymen, a passionate frontend developer and a computer science <br />student at USTHBI'm Aymen, a passionate frontend developer and a <br /> computer science student at USTHB</p>
+                        <p>Hey, I’m Aymen — I build websites like I breathe: clean, fast, and functional.
+Frontend Developer · Software Engineer
+Bachelor’s Degree in Computer Science · Master’s Student in Bioinformatics
+Instructor & Web Dev Team Leader @ Open Mindes Club
+I don’t like noise — I design with clarity and code with intent.
+
+Fun fact? I once wanted to be a doctor... but I ended up operating on code instead.</p>
                         <p className="text-[#55A4FF] mt-2">“ user-friendly web applications using the latest “</p>
                     </div>
                     <div className='flex flex-col   ' >
