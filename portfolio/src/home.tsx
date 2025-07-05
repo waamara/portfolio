@@ -72,11 +72,11 @@ const home = () => {
                                 <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
                                     href="https://github.com/waamara">Follow On Github</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                            </div><div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
                                     href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14]  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md  "
                                     href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
@@ -95,7 +95,7 @@ const home = () => {
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
-                    <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
+                    <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
                     <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14]  p-4 ">
                         <div className="flex flex-row  pb-4 ">
                             <div className="pr-6 ">
