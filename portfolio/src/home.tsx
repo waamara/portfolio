@@ -19,6 +19,8 @@ import Arrow from "../src/assets/Arrow 1.png"
 import Switch from "../src/assets/switch.png"
 import Me from "../src/assets/IMG_7000.jpg"
 
+import TiltedCard from "./components/TiltedCard" 
+
 
 const home = () => {
     return (
@@ -29,13 +31,24 @@ const home = () => {
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="p-10">
-                    <div className=" w-[300px] ">
-                        <img src={Me} alt="Me " className="rounded-xl " />
-                    </div>
+                    <TiltedCard 
+                        imageSrc={Me}
+                        altText="Aymen Berbiche"
+                        captionText="Aymen Berbiche - Software Engineer"
+                        containerHeight="300px"
+                        containerWidth="300px"
+                        imageHeight="300px"
+                        imageWidth="300px"
+                        rotateAmplitude={15}
+                        scaleOnHover={1.05}
+                        showTooltip={true}
+                        displayOverlayContent={false}
+                    />
+
                     <div className='flex flex-row justify-center text-center mt-4  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
                             <img src={Pointimg} alt="icone" className="w-4 h-4 " />
-                            <p className="text-xl pl-8 font-bold">Available For work</p>
+                            <p className="text-xl pl-8 font-semibold">Available For work</p>
                         </div>
                     </div>
                 </div>
@@ -92,10 +105,10 @@ const home = () => {
                         <div>
                             <p>Lorem ipsum dolor sit amet, consectetur iscing <br /> elit, sed do eiusmod tempor incididunt ut <br /> labore elit, tempor incididunt ut labore . </p>
                             <div className="flex justify-end -mt-5">
-                            <button >
-                                <img src={Switch} alt="Switch" />
-                            </button>
-                            </div>            
+                                <button >
+                                    <img src={Switch} alt="Switch" />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,21 +124,21 @@ const home = () => {
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
                         <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
                         <div className="flex flex-row gap-3 mt-2">
-                          
+
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Backend </p>
                             </div>
-                        
-                        
+
+
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Open Mindes Club </p>
                             </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Ai </p>
                             </div>
                         </div>
-                        
-                            
-                       
+
+
+
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[400px] border-[1px]  border-[#A1CDFF14]    bg-[#EAF4FF08] rounded-2xl">
