@@ -19,7 +19,8 @@ import Arrow from "../src/assets/Arrow 1.png"
 import Switch from "../src/assets/switch.png"
 import Me from "../src/assets/IMG_7000.jpg"
 
-import TiltedCard from "./components/TiltedCard" 
+import TiltedCard from "./components/TiltedCard"
+import SpotlightCard from "./components/SpotlightCard"
 
 
 const home = () => {
@@ -31,7 +32,7 @@ const home = () => {
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="p-10 ">
-                    <TiltedCard 
+                    <TiltedCard
                         imageSrc={Me}
                         altText="Aymen Berbiche"
                         captionText="Aymen Berbiche - Software Engineer"
@@ -55,13 +56,10 @@ const home = () => {
                 <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
-                        <p>Hey, I’m Aymen — I build websites like I breathe: clean, fast, and functional.
-Frontend Developer · Software Engineer
-Bachelor’s Degree in Computer Science · Master’s Student in Bioinformatics
-Instructor & Web Dev Team Leader @ Open Mindes Club
-I don’t like noise — I design with clarity and code with intent.
+                        <p>Hola amigos! Aymen here — full-stack dev, CS graduate, and bioinformatics master’s student. <br />
+                            I dream in code, live in VS Code, and break stuff just to fix it better. <br />
 
-Fun fact? I once wanted to be a doctor... but I ended up operating on code instead.</p>
+                            Fun fact: I wanted to be a doctor… <br /> but turns out debugging is more fun than diagnosing.</p>
                         <p className="text-[#55A4FF] mt-2">“ user-friendly web applications using the latest “</p>
                     </div>
                     <div className='flex flex-col   ' >
@@ -69,18 +67,19 @@ Fun fact? I once wanted to be a doctor... but I ended up operating on code inste
                             <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
                         <div className="flex flex-row space-x-5">
-                            <div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                            
+                            <div className="bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
                                     href="https://github.com/waamara">Follow On Github</a>
                             </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="berbicheaymen@gmail.com">Follow On Email</a>
+                                    href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
                             </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md"
-                                    href="linkedin.com/in/aymen-berbiche-772a13280">Follow On Linkedin</a>
+                                <a className=" pl-4 pb-12 rounded-md  "
+                                    href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
                             </div>
                         </div>
                     </div>
