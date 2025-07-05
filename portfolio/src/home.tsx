@@ -17,6 +17,7 @@ import Githubi from "../src/assets/Overlay+Shadow (4).png"
 import Emaili from "../src/assets/Overlay+Shadow (5).png"
 import Arrow from "../src/assets/Arrow 1.png"
 import Switch from "../src/assets/switch.png"
+import Me from "../src/assets/IMG_7000.jpg"
 
 
 const home = () => {
@@ -29,7 +30,7 @@ const home = () => {
             <div className="md:flex md:flex-row ">
                 <div className="p-10">
                     <div className=" w-[300px] ">
-                        <img src={Mypic} alt="My-img " className="rounded-xl h-[320px]" />
+                        <img src={Me} alt="Me " className="rounded-xl h-[300px] w-[400px]" />
                     </div>
                     <div className='flex flex-row justify-center text-center mt-4  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
