@@ -18,7 +18,7 @@ import Me from "../src/assets/IMG_7000.jpg"
 import TiltedCard from "./components/TiltedCard"
 import SpotlightCard from "./components/SpotlightCard"
 import Stack from "./components/Stack"  
-import testimonials from "./testimonials"
+import testimonials from "./testemonial"
 
 const home = () => {
     return (
