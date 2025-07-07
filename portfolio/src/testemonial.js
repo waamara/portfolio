@@ -49,6 +49,13 @@ const testimonials = [
             "Aymen helped bring our vision to life with clean, efficient code. Professional and reliable throughout the project.",
         avatar: Mypic,
     },
+    {
+        id:7,
+        name:"hello world", 
+        role: "full stack dev ", 
+        content:"nothing here", 
+        avatar: Mypic, 
+    }
 ];
 
 export default testimonials;
