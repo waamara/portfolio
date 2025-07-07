@@ -1,6 +1,13 @@
-import Switch from "../assets/switch.png"
+// src/components/TestimonialCard.tsx
+import React from 'react';
+import Switch from "../assets/switch.png";
+import { Testimonial } from '../testimonials';
 
-const TestimonialCard = ({ testimonial }) => {
+interface TestimonialCardProps {
+    testimonial: Testimonial;
+}
+
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
     return (
         <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14] p-4 h-full">
             <div className="flex flex-row pb-4">
