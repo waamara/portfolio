@@ -9,19 +9,16 @@ import More from "../../portfolio/src/assets/More.png"
 import Fram from "../../portfolio/src/assets/Frame.png"
 import Views from "../../portfolio/src/assets/Mac Studio 1.png"
 import Myphoto from "../src/assets/1741356507458 1.png"
-
-
-
 import Linkdini from "../src/assets/Overlay+Shadow (1).png"
 import Githubi from "../src/assets/Overlay+Shadow (4).png"
 import Emaili from "../src/assets/Overlay+Shadow (5).png"
 import Arrow from "../src/assets/Arrow 1.png"
 import Switch from "../src/assets/switch.png"
 import Me from "../src/assets/IMG_7000.jpg"
-
 import TiltedCard from "./components/TiltedCard"
 import SpotlightCard from "./components/SpotlightCard"
-
+import Stack from "./components/Stack"  
+import testimonials from "./testimonials"
 
 const home = () => {
     return (
@@ -67,7 +64,7 @@ const home = () => {
                             <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
                         <div className="flex flex-row space-x-5">
-                            
+
                             <div className="bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
@@ -96,26 +93,13 @@ const home = () => {
                     <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <div className="flex flex-col rounded-xl bg-[#131314] border-[1px] border-[#A1CDFF14]  p-4 ">
-                        <div className="flex flex-row  pb-4 ">
-                            <div className="pr-6 ">
-                                <img src={Mypic} alt="picture-of-the-talker"
-                                    className="w-14 rounded-xl" />
-                            </div>
-                            <div>
-                                <p className="text-xl">Full Name</p>
-                                <p>role lorem ipsum</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur iscing <br /> elit, sed do eiusmod tempor incididunt ut <br /> labore elit, tempor incididunt ut labore . </p>
-                            <div className="flex justify-end -mt-5">
-                                <button >
-                                    <img src={Switch} alt="Switch" />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <Stack
+                        randomRotation={true}
+                        sensitivity={150}
+                        sendToBackOnClick={false}
+                        cardDimensions={{ width: 400, height: 180 }}
+                        cardsData={testimonials}
+                    />
                 </div>
             </div>
             <br />
