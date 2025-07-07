@@ -11,9 +11,9 @@ export interface Testimonial {
 const testimonials: Testimonial[] = [
     {
         id: 1,
-        name: "Full Name",
-        role: "role lorem ipsum",
-        content: "Lorem ipsum dolor sit amet, consectetur iscing elit, sed do eiusmod tempor incididunt ut labore elit, tempor incididunt ut labore.",
+        name: "Aymen Berbiche",
+        role: "Full stack Developer",
+        content: "all i can say about me is that i did it ",
         avatar: Mypic
     },
     {
