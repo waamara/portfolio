@@ -1,4 +1,5 @@
 import Mypic from "./assets/me.jpg"
+import LD from "../src/assets/photo_5906813104682028146_y.jpg"
 
 export interface Testimonial {
     id: number;
@@ -18,39 +19,11 @@ const testimonials: Testimonial[] = [
     },
     {
         id: 2,
-        name: "Sarah Johnson",
+        name: "Lydia ",
         role: "Frontend Developer",
-        content: "Aymen delivered exceptional work on our project. His attention to detail and problem-solving skills are outstanding.",
-        avatar: Mypic
+        content: "Working with ACC has been a great experience. He’s a skilled and dependable web developer who consistently delivers high-quality work. His professionalism, problem-solving ability, and team spirit made him a valuable part of every project",
+        avatar: LD
     },
-    {
-        id: 3,
-        name: "Mike Chen",
-        role: "Product Manager",
-        content: "Great communication and technical expertise. The project was completed ahead of schedule with excellent quality.",
-        avatar: Mypic
-    },
-    {
-        id: 4,
-        name: "Emily Davis",
-        role: "UI/UX Designer",
-        content: "Working with Aymen was a pleasure. He understood our requirements perfectly and delivered beyond expectations.",
-        avatar: Mypic
-    },
-    {
-        id: 5,
-        name: "David Wilson",
-        role: "Tech Lead",
-        content: "Solid developer with great problem-solving skills. Would definitely recommend for any web development project.",
-        avatar: Mypic
-    },
-    {
-        id: 6,
-        name: "Lisa Anderson",
-        role: "Startup Founder",
-        content: "Aymen helped bring our vision to life with clean, efficient code. Professional and reliable throughout the project.",
-        avatar: Mypic
-    }
 ];
 
 export default testimonials;
