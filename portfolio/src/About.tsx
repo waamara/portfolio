@@ -23,10 +23,10 @@ import Stack1 from "./components/Stack1"
 
 
 const home = () => {
-      const images = [
-                        {id: 1, img: Me},
-                        {id: 2, img: Me  }
-                        ];
+    const images = [
+        { id: 1, img: Me },
+        { id: 2, img: Me }
+    ];
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
@@ -34,7 +34,7 @@ const home = () => {
             className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
-                        <div className="pt-10 pl-4">
+                <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>Hola amigos! Aymen here — full-stack dev, CS graduate, and bioinformatics master’s student. <br />
@@ -86,8 +86,19 @@ const home = () => {
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
                         </div>
                     </div>
+                    <div className="flex flex-row space-x-5">
+                        <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                            <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                            <a className=" pl-4 pb-12 rounded-md"
+                                href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
+                        </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14]  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
+                            <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                            <a className=" pl-4 pb-12 rounded-md  "
+                                href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
+                        </div>
+                    </div>
                 </div>
-        
+
             </div>
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
@@ -113,17 +124,17 @@ const home = () => {
             <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
             <div className="flex flex-row justify-around  ">
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
-                    
 
-                      
-                        <Stack
-                            randomRotation={true}
-                            sensitivity={180}
-                            sendToBackOnClick={false}
-                            cardDimensions={{ width: 200, height: 200 }}
-                            cardsData={images}
-                        />
-                    
+
+
+                    <Stack
+                        randomRotation={true}
+                        sensitivity={180}
+                        sendToBackOnClick={false}
+                        cardDimensions={{ width: 200, height: 200 }}
+                        cardsData={images}
+                    />
+
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
                         <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
