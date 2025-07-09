@@ -34,7 +34,7 @@ function CardRotate({ children, onSendToBack, sensitivity }) {
     );
 }
 
-export default function Stack({
+export default function Stack1({
     randomRotation = false,
     sensitivity = 200,
     cardDimensions = { width: 208, height: 208 },
