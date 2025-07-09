@@ -21,6 +21,10 @@ import Stack from "./components/Stack"
 import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
 
+import Ficone from "../src/assets/Icon (1).png"
+import Sicone from "../src/assets/Icon (2).png"
+
+
 
 const about = () => {
     const images = [
