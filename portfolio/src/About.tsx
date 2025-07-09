@@ -22,7 +22,7 @@ import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
 
 
-const home = () => {
+const about = () => {
     const images = [
         { id: 1, img: Me },
         { id: 2, img: Me }
@@ -87,14 +87,10 @@ const home = () => {
                         </div>
                     </div>
                     <div className="flex flex-row space-x-5">
-                        <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                        <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[130px] h-[80px] rounded-2xl ">
                             <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                             <a className=" pl-4 pb-12 rounded-md"
                                 href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
-                        </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14]  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
-                            <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                            <a className=" pl-4 pb-12 rounded-md  "
-                                href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
                         </div>
                     </div>
                 </div>
@@ -166,4 +162,4 @@ const home = () => {
     )
 }
 
-export default home
+export default about
