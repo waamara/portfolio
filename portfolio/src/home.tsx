@@ -17,12 +17,18 @@ import Switch from "../src/assets/switch.png"
 import Me from "../src/assets/IMG_7000.jpg"
 import TiltedCard from "./components/TiltedCard"
 import SpotlightCard from "./components/SpotlightCard"
-import Stack from "./components/Stack"  
-import testimonials from "./testemonial" 
+import Stack from "./components/Stack"
+import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
 
 
 const home = () => {
+      const images = [
+                        {id: 1, img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format" },
+                        {id: 2, img: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format" },
+                        {id: 3, img: "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format" },
+                        {id: 4, img: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format" }
+                        ];
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
@@ -108,17 +114,17 @@ const home = () => {
             <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
             <div className="flex flex-row justify-around  ">
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
-                    <div>
-                        <img src={Myphoto} alt="Mypicture" />
-                    </div>
-                    <div>
-                        const images = [
-  { id: 1, img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format" },
-  { id: 2, img: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format" },
-  { id: 3, img: "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format" },
-  { id: 4, img: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format" }
-];
-                    </div>
+                    
+
+                      
+                        <Stack
+                            randomRotation={true}
+                            sensitivity={180}
+                            sendToBackOnClick={false}
+                            cardDimensions={{ width: 200, height: 200 }}
+                            cardsData={images}
+                        />
+                    
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
                         <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
