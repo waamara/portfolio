@@ -92,9 +92,8 @@ const about = () => {
                     </div>
                     <div className="flex flex-row space-x-5">
                         <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[130px] h-[80px] rounded-2xl ">
-                            <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                            <a className=" pl-4 pb-12 rounded-md"
-                                href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
+                            <p>See My Resume</p>
+                            <img src={Ficone} alt="icone" className="flex -mt-3 -ml-2" />
                         </div>
                     </div>
                 </div>
