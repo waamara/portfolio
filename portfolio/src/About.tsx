@@ -91,9 +91,9 @@ const about = () => {
                         </div>
                     </div>
                     <div className="flex flex-row ">
-                        <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[130px] h-[80px] rounded-2xl ">
-                            <p>See My Resume</p>
-                            <img src={Ficone} alt="icone" className="flex -mt-3 -ml-2" />
+                        <div className=" p-5 w-[120px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <p>See My <br /> Resume</p>
+                            <img src={Ficone} alt="icone" className="flex h-3 w-3 " />
                         </div>
                     </div>
                 </div>
