@@ -111,20 +111,15 @@ const about = () => {
                     <img src={Views} alt="img" className="h-[300px]" />
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
-                    <p className="text-3xl mb-2  ">Testimonial </p>
-                    <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
-                    <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <Stack
-                        randomRotation={true}
-                        sensitivity={150}
-                        sendToBackOnClick={false}
-                        cardDimensions={{ width: 400, height: 180 }}
-                        cardsData={testimonials}
-                    />
+                    <p className="text-3xl mb-2  ">Quick Stats </p>
+                    <div className="flex flex-row  pt-4 space-x-4">
+                        <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <p>+ 12 <br />Completed <br /> Projects </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <br />
-       
+            <br />       
         </div>
     )
 }
