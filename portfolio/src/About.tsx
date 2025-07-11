@@ -113,8 +113,9 @@ const about = () => {
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Quick Stats </p>
                     <div className="flex flex-row  pt-4 space-x-4">
-                        <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p>+ 12 <br />Completed <br /> Projects </p>
+                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <p  className="text-2xl font-semibold pb-1">+ 12  </p>
+                            <p>Completed  Projects </p>
                         </div>
                     </div>
                 </div>
