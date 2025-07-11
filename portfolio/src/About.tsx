@@ -107,9 +107,22 @@ const about = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
-                <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[570px] ">
-                    <p className="text-2xl text-center pt-4">View All Works</p>
-                    <img src={Views} alt="img" className="h-[300px]" />
+                <div className="  flex flex-row m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[520px] ">
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Quick Stats </p>
