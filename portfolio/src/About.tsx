@@ -126,6 +126,9 @@ const about = () => {
                             <p>Bugs <br /> Resolved </p>
                         </div>
                     </div>
+                    <div className="flex flex-row  pt-4 space-x-4">
+                      
+                    </div>
                 </div>
             </div>
             <br />       
