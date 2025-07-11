@@ -117,6 +117,14 @@ const about = () => {
                             <p  className="text-2xl font-semibold pb-1">+ 12  </p>
                             <p>Completed  Projects </p>
                         </div>
+                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <p  className="text-2xl font-semibold pb-1">+ 3  </p>
+                            <p>Years of Experience </p>
+                        </div>
+                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <p  className="text-2xl font-semibold pb-1">+ 267 </p>
+                            <p>Bugs <br /> Resolved </p>
+                        </div>
                     </div>
                 </div>
             </div>
