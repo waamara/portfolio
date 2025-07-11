@@ -93,10 +93,10 @@ const about = () => {
                     <div className="flex flex-row  pt-4">
                         <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>See My <br /> Resume</p>
-                            <img src={Ficone} alt="icone" className="flex h-3 w-3 " />
+                            <img src={Sicone} alt="icone" className="flex h-3 w-3 " />
                         </div>
                         <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p>See My <br /> Resume</p>
+                            <p>Dowland <br /> Resume</p>
                             <img src={Ficone} alt="icone" className="flex h-3 w-3 " />
                         </div>
                     </div>
