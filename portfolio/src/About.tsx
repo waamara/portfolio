@@ -90,7 +90,7 @@ const about = () => {
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
                         </div>
                     </div>
-                    <div className="flex flex-row  pt-4">
+                    <div className="flex flex-row  pt-4 space-x-4">
                         <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>See My <br /> Resume</p>
                             <img src={Sicone} alt="icone" className="flex h-3 w-3 " />
