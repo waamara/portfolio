@@ -124,47 +124,7 @@ const about = () => {
                 </div>
             </div>
             <br />
-            <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
-            <div className="flex flex-row justify-around  ">
-                <div className=" flex flex-row p-6 mt-10 items-center justify-center border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
-
-
-
-                    <Stack
-                        randomRotation={true}
-                        sensitivity={180}
-                        sendToBackOnClick={false}
-                        cardDimensions={{ width: 200, height: 200 }}
-                        cardsData={images}
-                    />
-
-                    <div className="ml-4">
-                        <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
-                        <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
-                        <div className="flex flex-row gap-3 mt-2">
-
-                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Backend </p>
-                            </div>
-
-
-                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Open Mindes Club </p>
-                            </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Ai </p>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-                <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[400px] border-[1px]  border-[#A1CDFF14]    bg-[#EAF4FF08] rounded-2xl">
-                    <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
-                    <p>Feel free to reach out anytime you <br /> have a project idea </p>
-                    <p className="mt-8 text-[#55A4FF]">Come say hii :)</p>
-                </div>
-            </div>
+       
         </div>
     )
 }
