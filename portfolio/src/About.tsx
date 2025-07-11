@@ -23,6 +23,7 @@ import Stack1 from "./components/Stack1"
 
 import Ficone from "../src/assets/Icon (1).png"
 import Sicone from "../src/assets/Icon (2).png"
+import Video from "../src/assets/Rectangle 1927.png"
 
 
 
@@ -126,10 +127,15 @@ const about = () => {
                             <p>Bugs <br /> Resolved </p>
                         </div>
                     </div>
-                    <div className="flex p-3 text-center mt-6  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl">
+                    <div className="flex p-3 text-center mt-6 space-x-6  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl">
                         <p>Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
                             so Don’t worry  your code is in safe <br /> hands :)
                         </p>
+                        <img 
+                            src={Video}
+                            alt="Anime video"
+                            className=" w-[150px] "  
+                        />
                     </div>
                 </div>
             </div>
