@@ -41,11 +41,18 @@ const about = () => {
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="text-xl mt-1"> Core Values : </p>
-                        <div>
-                            <div>
-                                
+                        
+                            <div className="flex flex-row space-x-1.5">
+                                 <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
+                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <p>Frontend Developer </p>
+                    </div>
                             </div>
-                        </div>
                     </div>
                     <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
