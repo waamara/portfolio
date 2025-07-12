@@ -40,9 +40,9 @@ const about = () => {
                         <p className="text-3xl font-semibold ">About The Developer </p> <br />
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
-                        <p className="text-xl mt-1"> Core Values : </p>
+                        <p className="text-xl mt-2"> Core Values : </p>
                         
-                            <div className="flex flex-row space-x-1.5">
+                            <div className="flex flex-row space-x-1.5 mt-2">
                                  <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
                         <p>Frontend Developer </p>
                     </div>
@@ -58,7 +58,7 @@ const about = () => {
                         <div className='flex flex-row items-center justify-between pt-4'>
                             <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
-                        <div className="flex flex-row space-x-5">
+                        <div className="flex flex-row space-x-5 mt-1">
 
                             <div className="bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
