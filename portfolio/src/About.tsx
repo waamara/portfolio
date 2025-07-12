@@ -28,10 +28,6 @@ import Video from "../src/assets/Rectangle 1927.png"
 
 
 const about = () => {
-    const images = [
-        { id: 1, img: Me },
-        { id: 2, img: Me }
-    ];
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
@@ -41,12 +37,10 @@ const about = () => {
             <div className="md:flex md:flex-row ">
                 <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
-                        <p className="text-3xl font-semibold ">Introduction </p> <br />
-                        <p>Hola amigos! Aymen here — full-stack dev, CS graduate, and bioinformatics master’s student. <br />
-                            I dream in code, live in VS Code, and break stuff just to fix it better. <br />
-
-                            Fun fact: I wanted to be a doctor… <br /> but turns out debugging is more fun than diagnosing.</p>
-                        <p className="text-[#55A4FF] mt-2">“ user-friendly web applications using the latest “</p>
+                        <p className="text-3xl font-semibold ">About The Developer </p> <br />
+                        <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
+                        <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
+                        <p className="text-xl mt-1"> Core Values : </p>
                     </div>
                     <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
@@ -125,7 +119,7 @@ const about = () => {
                     </div>
                     <div>
                         <p>tools & skills</p>
-                        <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit, </p>
+                        <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit,  </p>
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
