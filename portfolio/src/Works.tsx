@@ -1,4 +1,4 @@
-
+import Image from "../src/assets/Rectangle 1928.png"
 
 const Works = () => {
     return (
