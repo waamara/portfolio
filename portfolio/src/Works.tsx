@@ -8,6 +8,7 @@ const Works = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-gray-950 opacity-100  p-8">
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div>
                 <h1 className="text-2xl font-semibold pb-3 ">My Selected Projects : </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
