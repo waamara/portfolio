@@ -118,8 +118,8 @@ const about = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
-                <div className="  flex flex-col m-10  place-items-center   justify-items-center bg-[#C2F6FF08] rounded-2xl w-[520px] ">
-                    <div className="grid grid-cols-2">
+                <div className="  flex flex-col m-10  place-items-center  bg-[#C2F6FF08] rounded-2xl w-[520px] ">
+                    <div className="grid grid-cols-2 ">
                         <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
                             <p>Frontend Developer </p>
                         </div>
@@ -138,10 +138,10 @@ const about = () => {
 
                     </div>
                     <div>
-                        <div className="flex flex-col items-center ">
-                            <p>tools & skills</p>
-                            <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit,  </p>
-                        </div>
+                        <div className="flex flex-col items-center text-center ">
+                            <p className="text-4xl mb-2">tools & skills</p>
+                            <p>tempor incididunt ut labore elit, tempor <br /> incididunt ut labore elit,  </p>
+                        </div> 
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
