@@ -9,106 +9,128 @@ const Works = () => {
         }}
             className="text-white bg-gray-950 opacity-100  p-8">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
-            <div>
+            <div className="ml-8 mt-8">
                 <h1 className="text-2xl font-semibold pb-3 ">My Selected Projects : </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
             </div>
+             <hr className="text-[#A1CDFF1A] ml-8 mr-8 mt-8"  />
             <div className="   md:grid md:grid-cols-3 ">
-                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                <div className="m-4  rounded-xl ">
                     <div>
                         <img src={Image} alt="Image de  projet " className="w-full p-3" />
                         <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
                     </div>
                     <div className="p-4">
                         <div>
-                            <p className="text-xl pb-1" >agency landing page</p>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div>
-                            <div className="flex flex-row  justify-evenly mt-4">
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
-                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                
+                 <div className="m-4  rounded-xl ">
                     <div>
                         <img src={Image} alt="Image de  projet " className="w-full p-3" />
                         <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
                     </div>
                     <div className="p-4">
                         <div>
-                            <p className="text-xl pb-1" >agency landing page</p>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div>
-                            <div className="flex flex-row  justify-evenly mt-4">
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
-                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                 <div className="m-4  rounded-xl ">
                     <div>
                         <img src={Image} alt="Image de  projet " className="w-full p-3" />
                         <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
                     </div>
                     <div className="p-4">
                         <div>
-                            <p className="text-xl pb-1" >agency landing page</p>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div>
-                            <div className="flex flex-row  justify-evenly mt-4">
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
-                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                 <div className="m-4  rounded-xl ">
                     <div>
                         <img src={Image} alt="Image de  projet " className="w-full p-3" />
                         <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
                     </div>
                     <div className="p-4">
                         <div>
-                            <p className="text-xl pb-1" >agency landing page</p>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div>
-                            <div className="flex flex-row  justify-evenly mt-4">
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
-                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="m-4  rounded-xl bg-[#C2F6FF0F]">
+                 <div className="m-4  rounded-xl ">
                     <div>
                         <img src={Image} alt="Image de  projet " className="w-full p-3" />
                         <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
                     </div>
                     <div className="p-4">
                         <div>
-                            <p className="text-xl pb-1" >agency landing page</p>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur</p>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div>
-                            <div className="flex flex-row  justify-evenly mt-4">
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">React Js</p> 
-                                <p className="bg-[#3674E7] rounded-4xl p-3  ">Tailwind Css</p>
-                                <p className="bg-[#3674E7] rounded-4xl p-3 ] ">Next Js</p>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                 <div className="m-4  rounded-xl ">
+                    <div>
+                        <img src={Image} alt="Image de  projet " className="w-full p-3" />
+                        <button className="bg-[#0C0F18] rounded-2xl p-2  hidden border-blue-500 border-2  ">Github Repo</button>
+                    </div>
+                    <div className="p-4">
+                        <div>
+                            <p className="text-xl pb-1" >Agency landing page</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div>
+                            <div className="flex flex-row  space-x-4 mt-4">
+                                <p className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] rounded-xl p-3  ">React Js</p> 
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3  ">Tailwind Css</p>
+                                <p className="bg-[#3F82FF1C] rounded-xl border-1 border-[#A1CDFF14] p-3 ] ">Next Js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )
