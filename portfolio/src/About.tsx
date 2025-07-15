@@ -41,18 +41,18 @@ const about = () => {
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="text-xl mt-2"> Core Values : </p>
-                        
-                            <div className="flex flex-row space-x-1.5 mt-2">
-                                 <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
+
+                        <div className="flex flex-row space-x-1.5 mt-2">
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                                <p>Frontend Developer </p>
                             </div>
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                                <p>Frontend Developer </p>
+                            </div>
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                                <p>Frontend Developer </p>
+                            </div>
+                        </div>
                     </div>
                     <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
@@ -98,14 +98,19 @@ const about = () => {
                         </div>
                     </div>
                     <div className="flex flex-row  pt-4 space-x-4">
-                        <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                        <a href="">
+                            <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>See My <br /> Resume</p>
                             <img src={Sicone} alt="icone" className="flex h-3 w-3 " />
                         </div>
-                        <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                        </a>
+                        <a href="">
+                             <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>Dowland <br /> Resume</p>
                             <img src={Ficone} alt="icone" className="flex h-3 w-3 " />
                         </div>
+                        </a>
+                       
                     </div>
                 </div>
 
@@ -113,40 +118,45 @@ const about = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
-                <div className="  grid grid-cols-2 m-10  place-items-center   justify-items-center bg-[#C2F6FF08] rounded-2xl w-[520px] ">
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
-                    </div>
-                    <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                        <p>Frontend Developer </p>
+                <div className="  flex flex-col m-10  place-items-center   justify-items-center bg-[#C2F6FF08] rounded-2xl w-[520px] ">
+                    <div className="grid grid-cols-2">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                            <p>Frontend Developer </p>
+                        </div>
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                            <p>Frontend Developer </p>
+                        </div>
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                            <p>Frontend Developer </p>
+                        </div>
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                            <p>Frontend Developer </p>
+                        </div>
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                            <p>Frontend Developer </p>
+                        </div>
+                       
                     </div>
                     <div>
-                        <p>tools & skills</p>
-                        <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit,  </p>
+                         <div>
+                            <p>tools & skills</p>
+                            <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit,  </p>
+                        </div>
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Quick Stats </p>
                     <div className="flex flex-row  pt-4 space-x-4">
                         <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p  className="text-2xl font-semibold pb-1">+ 12  </p>
+                            <p className="text-2xl font-semibold pb-1">+ 12  </p>
                             <p>Completed  Projects </p>
                         </div>
                         <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p  className="text-2xl font-semibold pb-1">+ 3  </p>
+                            <p className="text-2xl font-semibold pb-1">+ 3  </p>
                             <p>Years of Experience </p>
                         </div>
                         <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p  className="text-2xl font-semibold pb-1">+ 267 </p>
+                            <p className="text-2xl font-semibold pb-1">+ 267 </p>
                             <p>Bugs <br /> Resolved </p>
                         </div>
                     </div>
@@ -154,15 +164,15 @@ const about = () => {
                         <p>Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
                             so Don’t worry  your code is in safe <br /> hands :)
                         </p>
-                        <img 
+                        <img
                             src={Video}
                             alt="Anime video"
-                            className=" w-[150px] "  
+                            className=" w-[150px] "
                         />
                     </div>
                 </div>
             </div>
-            <br />       
+            <br />
         </div>
     )
 }
