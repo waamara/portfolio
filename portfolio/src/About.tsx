@@ -98,19 +98,19 @@ const about = () => {
                         </div>
                     </div>
                     <div className="flex flex-row  pt-4 space-x-4">
-                        <a href="">
+                        <a href="../src/assets/AYMEN BERBICHE.pdf">
                             <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p>See My <br /> Resume</p>
-                            <img src={Sicone} alt="icone" className="flex h-3 w-3 mt-2" />
-                        </div>
+                                <p>See My <br /> Resume</p>
+                                <img src={Sicone} alt="icone" className="flex h-3 w-3 mt-2" />
+                            </div>
                         </a>
-                        <a href="">
-                              <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p>Dowland <br /> Resume</p>
-                            <img src={Ficone} alt="icone" className="flex h-3 w-3 mt-2 " />
-                        </div>
+                        <a href="../src/assets/AYMEN BERBICHE.pdf" download>
+                            <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                                <p>Dowland <br /> Resume</p>
+                                <img src={Ficone} alt="icone" className="flex h-3 w-3 mt-2 " />
+                            </div>
                         </a>
-                      
+
                     </div>
                 </div>
 
@@ -135,10 +135,10 @@ const about = () => {
                         <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
                             <p>Frontend Developer </p>
                         </div>
-                       
+
                     </div>
                     <div>
-                         <div>
+                        <div>
                             <p>tools & skills</p>
                             <p>tempor incididunt ut labore elit, tempor incididunt ut labore elit,  </p>
                         </div>
