@@ -101,16 +101,16 @@ const about = () => {
                         <a href="">
                             <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>See My <br /> Resume</p>
-                            <img src={Sicone} alt="icone" className="flex h-3 w-3 " />
+                            <img src={Sicone} alt="icone" className="flex h-3 w-3 mt-2" />
                         </div>
                         </a>
                         <a href="">
-                             <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                              <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
                             <p>Dowland <br /> Resume</p>
-                            <img src={Ficone} alt="icone" className="flex h-3 w-3 " />
+                            <img src={Ficone} alt="icone" className="flex h-3 w-3 mt-2 " />
                         </div>
                         </a>
-                       
+                      
                     </div>
                 </div>
 
