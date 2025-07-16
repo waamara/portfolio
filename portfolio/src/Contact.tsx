@@ -8,10 +8,10 @@ const Contact = () => {
             backgroundImage: `url($Bgimg)`,
         }}
         
-            className="text-white bg-[#0A0B10]   pt-16 justify-around p-8 h-screen ">
+            className="text-white bg-[#0A0B10]   p-8 h-screen ">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
-            <div className="flex flex-row">
-                 <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[500px] w-[700px] ">                
+            <div className="flex flex-row pt-16 justify-around">
+                 <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px] ">                
                 <div >
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore</p>
