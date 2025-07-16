@@ -1,8 +1,4 @@
 
-import Linkedin from "../../portfolio/src/assets/email (7).png"
-import Email from "../../portfolio/src/assets/email (1).png"
-import Instagram from "../../portfolio/src/assets/Instagram.png"
-
 
 
 const Contact = () => {
@@ -29,10 +25,11 @@ const Contact = () => {
                     <p className="text-2xl font-semibold pb-4">Ways to Reach Me</p>
                     <p>I'm available across multiple channels. Feel <br /> free to connect however it suits you best.</p>
                     <div className=" flex flex-row">
-                    
+                        <p>Location</p>
+                        <img src="" alt="" />
+                        <p>Algiers, Algeria</p>
                     </div>
                 </div>
-             
             </div>
         </div>
     )
