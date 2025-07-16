@@ -28,15 +28,15 @@ const Contact = () => {
                         <img src={Location} alt="" />
                         <p>Algiers, Algeria</p>
                     </div>
-                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <p>Location</p>
+                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <p>Email</p>
                         <img src={Location} alt="" />
-                        <p>Algiers, Algeria</p>
+                        <p>berbicheaymen@gmail.com</p>
                     </div>
-                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <p>Location</p>
+                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <p>Phone</p>
                         <img src={Location} alt="" />
-                        <p>Algiers, Algeria</p>
+                        <p>06588300028</p>
                     </div>
                 </div>
             </div>
