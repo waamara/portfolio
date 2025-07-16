@@ -1,5 +1,4 @@
-
-
+import  Location from "../src/assets/Cash Pin Map--Streamline-Ultimate (1).png" 
 
 const Contact = () => {
     return (
@@ -24,9 +23,19 @@ const Contact = () => {
                 <div>
                     <p className="text-2xl font-semibold pb-4">Ways to Reach Me</p>
                     <p>I'm available across multiple channels. Feel <br /> free to connect however it suits you best.</p>
-                    <div className=" flex flex-row">
+                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
                         <p>Location</p>
-                        <img src="" alt="" />
+                        <img src={Location} alt="" />
+                        <p>Algiers, Algeria</p>
+                    </div>
+                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <p>Location</p>
+                        <img src={Location} alt="" />
+                        <p>Algiers, Algeria</p>
+                    </div>
+                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <p>Location</p>
+                        <img src={Location} alt="" />
                         <p>Algiers, Algeria</p>
                     </div>
                 </div>
