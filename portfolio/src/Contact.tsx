@@ -26,27 +26,13 @@ const Contact = () => {
             </div>
             <div>
                 <div>
-                    <p className="text-xl font-semibold pb-4">Contact</p>
+                    <p className="text-2xl font-semibold pb-4">Ways to Reach Me</p>
+                    <p>I'm available across multiple channels. Feel <br /> free to connect however it suits you best.</p>
                     <div className=" flex flex-row">
-                        <img src={Email} alt="email-asset" className="pb-2" />
-                        <p>berbicheaymen@gmail.com</p>
-                    </div>
-                    <div className=" flex flex-row pb-4 pt-3">
-                        <img src={Linkedin} alt="Linkedin-asset" />
-                        <a href="linkedin.com/in/aymen-berbiche-772a13280">Reach me on LinkedIn</a>
+                    
                     </div>
                 </div>
-                <div>
-                    <p className="text-xl font-semibold pb-4">Social Media </p>
-                    <div className="flex flex-row">
-                        <img src={Instagram} alt="Instagram-icone" />
-                        <p>visualsbyartam</p>
-                    </div>
-                    <div className="flex flex-row pt-4">
-                        <img src={Instagram} alt="Instagram-icone" />
-                        <p >visualsbyartam</p>
-                    </div>
-                </div>
+             
             </div>
         </div>
     )
