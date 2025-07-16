@@ -11,7 +11,7 @@ const Contact = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-[#0A0B10] bg-cover md:flex md:flex-row md:justify-around p-8 h-svh">
-            <div className="">
+            <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] ">
                 <div >
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
