@@ -16,12 +16,12 @@ const Contact = () => {
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore</p>
                     <div className="flex flex-col mt-12">
-                        <div className="flex flex-col md:flex-row ">
-                            <input type="text" placeholder="Full Name" className=" pt-5 pb-5 pl-2 mb-4" />
-                            <input type="text" placeholder="Email" className=" pt-5 pb-5 pl-2 mb-4" />
+                        <div className="flex flex-col md:flex-row space-x-20 ">
+                            <input type="text" placeholder="Full Name" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[250px]" />
+                            <input type="text" placeholder="Email" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[250px]" />
                         </div>
-                        <input type="text" placeholder="Message" className=" pt-5 pb-5 pl-2 mb-4" />
-                        <button className="bg-[#4D8FCD] rounded-xl  w-[150px] h-[50px]  font-semibold ">Send Message </button>
+                        <input type="text" placeholder="Message" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[580px]" />
+                        <button className="bg-[#1E8BF2] mt-4 rounded-xl  w-[180px] h-[40px]  font-semibold ">Send Message </button>
                     </div> </div>
             </div>
             <div>
