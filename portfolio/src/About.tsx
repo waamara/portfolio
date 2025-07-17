@@ -25,9 +25,37 @@ import Ficone from "../src/assets/Icon (1).png"
 import Sicone from "../src/assets/Icon (2).png"
 import Video from "../src/assets/Rectangle 1927.png"
 
+import { useEffect, useState } from "react";
+
+const tags = [
+    "Frontend Developer",
+    "UI Designer",
+    "Web Enthusiast",
+    "React Lover"
+];
+
+const AutoTagCarousel = () => {
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIndex((prev) => (prev + 1) % tags.length);
+        }, 2000);
+        return () => clearInterval(interval);
+    }, []);
+
+    return (
+        <div className="flex flex-row space-x-1.5 mt-2 transition-all duration-700 ease-in-out">
+            <div className="bg-[#3F82FF1C] border border-[#A1CDFF14] p-2 rounded-2xl min-w-[200px] text-center">
+                <p>{tags[index]}</p>
+            </div>
+        </div>
+    );
+};
 
 
 const about = () => {
+
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
@@ -41,18 +69,8 @@ const about = () => {
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="text-xl mt-2"> Core Values : </p>
+                        <AutoTagCarousel />
 
-                        <div className="flex flex-row space-x-1.5 mt-2">
-                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                                <p>Frontend Developer </p>
-                            </div>
-                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                                <p>Frontend Developer </p>
-                            </div>
-                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
-                                <p>Frontend Developer </p>
-                            </div>
-                        </div>
                     </div>
                     <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
@@ -141,7 +159,7 @@ const about = () => {
                         <div className="flex flex-col items-center text-center ">
                             <p className="text-4xl mb-2">tools & skills</p>
                             <p>tempor incididunt ut labore elit, tempor <br /> incididunt ut labore elit,  </p>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
@@ -162,7 +180,7 @@ const about = () => {
                     </div>
                     <div className="flex  p-3 text-center mt-6 space-x-6  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl">
                         <p>Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
-                            so Don’t worry  your code is in safe <br /> hands :) 
+                            so Don’t worry  your code is in safe <br /> hands :)
                         </p>
                         <img
                             src={Video}
