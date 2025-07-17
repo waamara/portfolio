@@ -24,6 +24,7 @@ import Stack1 from "./components/Stack1"
 import Ficone from "../src/assets/Icon (1).png"
 import Sicone from "../src/assets/Icon (2).png"
 import Video from "../src/assets/Rectangle 1927.png"
+import CountUp from "../src/components/Countup";
 
 import { useEffect, useState } from "react";
 
@@ -164,20 +165,30 @@ const about = () => {
                 </div>
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Quick Stats </p>
-                    <div className="flex flex-row  pt-4 space-x-4">
-                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p className="text-2xl font-semibold pb-1">+ 12  </p>
-                            <p>Completed  Projects </p>
-                        </div>
-                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p className="text-2xl font-semibold pb-1">+ 3  </p>
-                            <p>Years of Experience </p>
-                        </div>
-                        <div className=" p-2 w-[140px] h-[110px] flex flex-col  items-center text-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
-                            <p className="text-2xl font-semibold pb-1">+ 267 </p>
-                            <p>Bugs <br /> Resolved </p>
-                        </div>
-                    </div>
+ <div className="flex flex-row pt-4 space-x-4">
+        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+          <p className="text-2xl font-semibold pb-1">
+            + <CountUp end={12} duration={2000} />
+          </p>
+          <p>Completed Projects</p>
+        </div>
+
+        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+          <p className="text-2xl font-semibold pb-1">
+            + <CountUp end={3} duration={1500} />
+          </p>
+          <p>Years of Experience</p>
+        </div>
+
+        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+          <p className="text-2xl font-semibold pb-1">
+            + <CountUp end={267} duration={2500} />
+          </p>
+          <p>
+            Bugs <br /> Resolved
+          </p>
+        </div>
+      </div>
                     <div className="flex  p-3 text-center mt-6 space-x-6  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl">
                         <p>Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
                             so Don’t worry  your code is in safe <br /> hands :)

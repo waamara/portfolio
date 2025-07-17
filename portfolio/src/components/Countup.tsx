@@ -1,71 +1,78 @@
-import { useState, useEffect, useRef } from "react";
+"use client"
 
-function CountUp({ end, start = 0, duration = 2000, prefix = "", suffix = "" }) {
-    const [count, setCount] = useState(start);
-    const countRef = useRef(null);
-    const [hasAnimated, setHasAnimated] = useState(false);
+import { useState, useEffect, useRef } from "react"
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting && !hasAnimated) {
-                    setHasAnimated(true);
-
-                    // Get start time for animation
-                    const startTime = Date.now();
-
-                    // Animation function
-                    const animate = () => {
-                        // Calculate how much time has passed
-                        const timeElapsed = Date.now() - startTime;
-
-                        // Calculate progress (0 to 1)
-                        const progress = Math.min(timeElapsed / duration, 1);
-
-                        // Use easing function for smoother animation
-                        const easedProgress = 1 - Math.pow(1 - progress, 3);
-
-                        // Calculate current count value
-                        const currentCount = Math.floor(start + (end - start) * easedProgress);
-
-                        // Update count state
-                        setCount(currentCount);
-
-                        // Continue animation if not complete
-                        if (progress < 1) {
-                            countRef.current = requestAnimationFrame(animate);
-                        }
-                    };
-
-                    // Start animation
-                    countRef.current = requestAnimationFrame(animate);
-                }
-            },
-            { threshold: 0.1 } // Trigger when at least 10% of element is visible
-        );
-
-        // Start observing the current element
-        const currentElement = document.getElementById(`count-${end}`);
-        if (currentElement) {
-            observer.observe(currentElement);
-        }
-
-        // Clean up animation and observer when component unmounts
-        return () => {
-            if (countRef.current) {
-                cancelAnimationFrame(countRef.current);
-            }
-            if (currentElement) {
-                observer.unobserve(currentElement);
-            }
-        };
-    }, [end, start, duration, hasAnimated]);
-
-    return (
-        <span id={`count-${end}`}>
-            {prefix}{count}{suffix}
-        </span>
-    );
+interface CountUpProps {
+  end: number
+  start?: number
+  duration?: number
+  prefix?: string
+  suffix?: string
 }
 
-export default CountUp;
+function CountUp({ end, start = 0, duration = 2000, prefix = "", suffix = "" }: CountUpProps) {
+  const [count, setCount] = useState(start)
+  const [isVisible, setIsVisible] = useState(false)
+  const elementRef = useRef<HTMLSpanElement>(null)
+  const hasAnimated = useRef(false)
+
+  // Intersection Observer to detect when element is visible
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0]
+        if (entry.isIntersecting && !hasAnimated.current) {
+          setIsVisible(true)
+          hasAnimated.current = true
+        }
+      },
+      { threshold: 0.1 },
+    )
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current)
+    }
+
+    return () => {
+      if (elementRef.current) {
+        observer.unobserve(elementRef.current)
+      }
+    }
+  }, [])
+
+  // Animation logic
+  useEffect(() => {
+    if (!isVisible) return
+
+    const startTime = Date.now()
+    const startValue = start
+
+    const animate = () => {
+      const now = Date.now()
+      const elapsed = now - startTime
+      const progress = Math.min(elapsed / duration, 1)
+
+      // Easing function for smooth animation
+      const easeOutCubic = 1 - Math.pow(1 - progress, 3)
+      const currentValue = Math.floor(startValue + (end - startValue) * easeOutCubic)
+
+      setCount(currentValue)
+
+      if (progress < 1) {
+        requestAnimationFrame(animate)
+      }
+    }
+
+    requestAnimationFrame(animate)
+  }, [isVisible, start, end, duration])
+
+  return (
+    <span ref={elementRef}>
+      {prefix}
+      {count}
+      {suffix}
+    </span>
+  )
+}
+
+export default CountUp
