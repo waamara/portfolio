@@ -11,7 +11,7 @@ const Contact = () => {
             className="text-white bg-[#0A0B10]   p-8 h-screen ">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row pt-16 justify-around">
-                 <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px] ">                
+                <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px] ">                
                 <div >
                     <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                     <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore</p>
@@ -35,23 +35,23 @@ const Contact = () => {
                         <p>Algiers, Algeria</p>
                         </a>
                     </div>
-                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <a href="mailto:berbicheaymen@gmail.com">
-                             <p>Email</p>
-                        <img src={Email} alt="Email icone" />
-                        <p>berbicheaymen@gmail.com</p>
+                    <div className="  mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <a href="mailto:berbicheaymen@gmail.com" className=" flex flex-row space-x-3">
+                            <p>Email</p>
+                            <img src={Email} alt="Email icone" />
+                            <p>berbicheaymen@gmail.com</p>
                         </a>
-                       
                     </div>
-                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <p>Phone</p>
+                    <div className="  mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <a href="tel:+2130658830028" className="flex flex-row space-x-3">
+                             <p>Phone</p>
                         <img src={Phone} alt="Phone icone" />
                         <p>+2136588300028</p>
+                        </a>
                     </div>
                 </div>
             </div>
             </div>
-           
         </div>
     )
 }
