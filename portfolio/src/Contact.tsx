@@ -28,20 +28,25 @@ const Contact = () => {
                 <div>
                     <p className="text-2xl font-semibold pb-4">Ways to Reach Me</p>
                     <p>I'm available across multiple channels. Feel <br /> free to connect however it suits you best.</p>
-                    <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <p>Location</p>
+                    <div className=" mt-4 border-b-1 border-b-[#55A4FF] p-2">
+                        <a href="https://maps.app.goo.gl/gDqYRgsN18RdwNTS9 " className="flex flex-row space-x-4">
+                            <p>Location</p>
                         <img src={Location} alt="Location Icone" />
                         <p>Algiers, Algeria</p>
+                        </a>
                     </div>
                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <p>Email</p>
+                        <a href="mailto:berbicheaymen@gmail.com">
+                             <p>Email</p>
                         <img src={Email} alt="Email icone" />
                         <p>berbicheaymen@gmail.com</p>
+                        </a>
+                       
                     </div>
                     <div className=" flex flex-row space-x-3 mt-4 border-b-1 border-b-[#55A4FF] p-2">
                         <p>Phone</p>
                         <img src={Phone} alt="Phone icone" />
-                        <p>06588300028</p>
+                        <p>+2136588300028</p>
                     </div>
                 </div>
             </div>

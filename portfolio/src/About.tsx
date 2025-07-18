@@ -25,6 +25,7 @@ import Ficone from "../src/assets/Icon (1).png"
 import Sicone from "../src/assets/Icon (2).png"
 import Video from "../src/assets/Rectangle 1927.png"
 import CountUp from "../src/components/Countup";
+import Gif from "../src/assets/téléchargement.gif"
 
 import { useEffect, useState } from "react";
 
@@ -194,9 +195,9 @@ const about = () => {
                             so Don’t worry  your code is in safe <br /> hands :)
                         </p>
                         <img
-                            src={Video}
+                            src={Gif}
                             alt="Anime video"
-                            className=" w-[150px] "
+                            className=" w-[150px] rounded-2xl "
                         />
                     </div>
                 </div>
