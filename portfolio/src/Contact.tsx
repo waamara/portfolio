@@ -44,7 +44,7 @@ const Contact = () => {
                     </div>
                     <div className="  mt-4 border-b-1 border-b-[#55A4FF] p-2">
                         <a href="tel:+2130658830028" className="flex flex-row space-x-3">
-                             <p>Phone</p>
+                            <p>Phone</p>
                         <img src={Phone} alt="Phone icone" />
                         <p>+2136588300028</p>
                         </a>
