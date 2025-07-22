@@ -5,6 +5,7 @@ import { useRef } from "react"
 
 
 const Contact = () => {
+    const from = useref();
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
