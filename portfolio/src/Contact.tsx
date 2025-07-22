@@ -25,7 +25,7 @@ const Contact = () => {
                                     <input required name="replay_to" type="text" placeholder="Email" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[250px]" />
                                 </div>
                                 <input required name="message" type="text" placeholder="Message" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[580px]" />
-                                <button className="bg-[#1E8BF2] mt-4 rounded-xl  w-[180px] h-[40px]  font-semibold ">Send Message </button>
+                                <button type="submit" className="bg-[#1E8BF2] mt-4 rounded-xl  w-[180px] h-[40px]  font-semibold ">Send Message </button>
                             </div>
                             </form>
                     </div>
