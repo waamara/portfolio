@@ -1,6 +1,8 @@
 import  Location from "../src/assets/Cash Pin Map--Streamline-Ultimate (1).png" 
 import Phone from "../src/assets/Phone Actions Receive--Streamline-Ultimate.png"
 import Email from "../src/assets/Envelope--Streamline-Ultimate.png"
+import { useRef } from "react" 
+
 
 const Contact = () => {
     return (
