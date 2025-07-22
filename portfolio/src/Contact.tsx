@@ -53,7 +53,7 @@ const Contact = () => {
                                     className="border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[250px]"
                                 />
                             </div>
-                            <textarea
+                            <input
                                 required
                                 name="message"
                                 placeholder="Message"
