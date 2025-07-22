@@ -71,7 +71,7 @@ const about = () => {
                         <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
                         <p className="text-xl mt-2"> Core Values : </p>
-                        <AutoTagCarousel />
+                       
 
                     </div>
                     <div className='flex flex-col   ' >
