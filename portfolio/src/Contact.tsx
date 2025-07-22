@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="flex flex-row pt-16 justify-around">
                 <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px] ">
                     <div >
-                        <form action="">
+                        <form ref={from} onsubmit={SendEmail} >
                             <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                             <p className="pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore</p>
                             <div className="flex flex-col mt-12">
@@ -27,7 +27,7 @@ const Contact = () => {
                                 <input type="text" placeholder="Message" className=" border-[#A1CDFF1A] border-b-1 pt-5 pb-5 pl-2 mb-4 w-[580px]" />
                                 <button className="bg-[#1E8BF2] mt-4 rounded-xl  w-[180px] h-[40px]  font-semibold ">Send Message </button>
                             </div>
-                        ></form>/form>
+                            </form>
                     </div>
                 
 
