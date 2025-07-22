@@ -203,6 +203,10 @@ const about = () => {
                 </div>
             </div>
             <br />
+            <hr className="text-[#A1CDFF1A] mt-10 ml-8 mr-8" />
+            <div className="flex justify-center items-center mt-8  ">
+                <p> Made By Aymen  &copy; {new Date().getFullYear()}   </p>
+            </div>
         </div>
     )
 }
