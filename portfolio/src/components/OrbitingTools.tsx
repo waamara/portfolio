@@ -6,40 +6,48 @@ import Notion from "../assets/Vector (6).png"
 import Vscode from "../assets/Vector (7).png"
 
 
+
+const icons = [
+  { src: Js, alt: "JS", angle: 0 },
+  { src: Java, alt: "Java", angle: 25 },
+  { src: ReactLogo, alt: "React", angle: 50 },
+  { src: Tailwind, alt: "Tailwind", angle: 75 },
+  
+  { src: Vscode, alt: "VSCode", angle: 125 },
+ 
+  { src: Notion, alt: "Notion", angle: 175 },
+];
+
 const OrbitingTools = () => {
   return (
-    <div className="relative w-[350px] h-[350px] mx-auto my-12">
-      {/* Static circles */}
-      <div className="absolute inset-0 rounded-full border border-[#1E90FF22]"></div>
-      <div className="absolute inset-[30px] rounded-full border border-[#1E90FF22]"></div>
-      <div className="absolute inset-[60px] rounded-full border border-[#1E90FF22]"></div>
+    <div className="relative w-[350px] h-[180px] mx-auto my-12">
+      {/* Semicircle background (visual only) */}
+      <div className="absolute top-0 left-0 w-full h-full border-t border-[#1E90FF22] rounded-t-full"></div>
 
-      {/* Rotating icons */}
-      <div className="absolute inset-0 animate-spin-slow">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2">
-          <img src={Js} alt="JS" className="w-8 h-8" />
-        </div>
-        <div className="absolute top-[20%] right-4">
-          <img src={Notion} alt="Notion" className="w-8 h-8" />
-        </div>
-        <div className="absolute top-1/2 right-0 -translate-y-1/2">
-          <img src={ReactLogo} alt="React" className="w-8 h-8" />
-        </div>
-        <div className="absolute bottom-[20%] right-4">
-          <img src={Tailwind} alt="Tailwind" className="w-8 h-8" />
-        </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
-          <img src={Java} alt="Java" className="w-8 h-8" />
-        </div>
-       
-        <div className="absolute top-1/2 left-0 -translate-y-1/2">
-          <img src={Vscode} alt="VSCode" className="w-8 h-8" />
-        </div>
-        
-      </div>
+      {/* Icons placed manually along the arc */}
+      {icons.map(({ src, alt, angle }, index) => {
+        const radius = 130;
+        const rad = (angle * Math.PI) / 180;
+        const x = radius * Math.cos(rad);
+        const y = radius * Math.sin(rad);
+
+        return (
+          <img
+            key={index}
+            src={src}
+            alt={alt}
+            className="absolute w-8 h-8"
+            style={{
+              left: `calc(50% + ${x}px - 16px)`,
+              top: `${radius - y - 16}px`,
+            }}
+          />
+        );
+      })}
     </div>
   );
 };
 
 export default OrbitingTools;
+
 
