@@ -28,6 +28,7 @@ import CountUp from "../src/components/Countup";
 import Gif from "../src/assets/téléchargement.gif"
 
 import { useEffect, useState } from "react";
+import OrbitingTools  from "./components/OrbitingTools"
 
 const tags = [
     "Frontend Developer",
