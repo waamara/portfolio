@@ -162,7 +162,9 @@ const about = () => {
                         <div className="flex flex-col items-center text-center ">
                             <p className="text-4xl mb-2">tools & skills</p>
                             <p>tempor incididunt ut labore elit, tempor <br /> incididunt ut labore elit,  </p>
-                            <OrbitingTools />
+                             <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <OrbitingTools />
+    </main>
                         </div>
                     </div>
                 </div>

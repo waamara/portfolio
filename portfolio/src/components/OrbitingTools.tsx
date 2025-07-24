@@ -1,7 +1,6 @@
 "use client"
 
-import Image from "next/image"
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react" // Removed Image import
 
 const icons = [
   // Icons positioned on the outermost "ring" or slightly above the main arc
@@ -57,12 +56,12 @@ const OrbitingTools = () => {
           const y = radius * Math.sin(rad)
 
           return (
-            <Image
+            <img
               key={index}
               src={src || "/placeholder.svg"} // Use the direct string path
               alt={alt}
-              width={32}
-              height={32}
+              width={32} // Set a fixed width for the icons
+              height={32} // Set a fixed height for the icons
               className="absolute h-8 w-8"
               style={{
                 left: `calc(50% + ${x}px - 16px)`,
