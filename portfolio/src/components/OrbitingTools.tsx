@@ -4,16 +4,16 @@ import { useEffect, useState } from "react" // Removed Image import
 
 const icons = [
   // Icons positioned on the outermost "ring" or slightly above the main arc
-  { src: "/assets/js-logo.png", alt: "JS", baseAngle: 20, radius: 160 },
-  { src: "/assets/java-logo.png", alt: "Java", baseAngle: 160, radius: 160 },
-  { src: "/assets/vscode-logo.png", alt: "VSCode", baseAngle: 30, radius: 120 },
-  { src: "/assets/react-logo.png", alt: "React", baseAngle: 150, radius: 120 },
+  { src: "../assets/Vector (2).png", alt: "JS", baseAngle: 20, radius: 160 },
+  { src: "../assets/Icon (3).png", alt: "Java", baseAngle: 160, radius: 160 },
+  { src: "../assets/Icon (4).png", alt: "VSCode", baseAngle: 30, radius: 120 },
+ 
   // Icons positioned on the middle "ring"
-  { src: "/assets/github-logo.png", alt: "GitHub", baseAngle: 50, radius: 80 },
-  { src: "/assets/notion-logo.png", alt: "Notion", baseAngle: 90, radius: 80 },
-  { src: "/assets/tailwind-logo.png", alt: "Tailwind", baseAngle: 130, radius: 80 },
+  { src: "../assets/Icon (6).png", alt: "GitHub", baseAngle: 50, radius: 80 },
+  { src: "../assets/Icon (7).png", alt: "Notion", baseAngle: 90, radius: 80 },
+  
   // Icon positioned on the innermost "ring"
-  { src: "/assets/blue-wave-icon.png", alt: "Blue Wave", baseAngle: 90, radius: 40 },
+   { src: "../assets/Icon (5).png", alt: "React", baseAngle: 150, radius: 120 },
 ]
 
 const OrbitingTools = () => {
