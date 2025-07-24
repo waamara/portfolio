@@ -1,13 +1,15 @@
 @import "tailwindcss";
-@keyframes spin-slow {
+
+@keyframes halfOrbit {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
 
-.animate-spin-slow {
-  animation: spin-slow 100s linear infinite;
+.orbit-container {
+  animation: halfOrbit 10s linear infinite;
+  transform-origin: center bottom;
 }
