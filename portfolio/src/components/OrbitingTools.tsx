@@ -4,16 +4,16 @@ import { useEffect, useState } from "react" // Removed Image import
 
 const icons = [
   // Icons positioned on the outermost "ring" or slightly above the main arc
-  { src: "../assets/Vector (2).png", alt: "JS", baseAngle: 20, radius: 160 },
-  { src: "../assets/Icon (3).png", alt: "Java", baseAngle: 160, radius: 160 },
-  { src: "../assets/Icon (4).png", alt: "VSCode", baseAngle: 30, radius: 120 },
+  { src: "../../src/assets/Vector (2).png", alt: "JS", baseAngle: 20, radius: 160 },
+  { src: "../../src/assets/Vector (3).png", alt: "Java", baseAngle: 160, radius: 160 },
+  { src: "../../src/assets/Vector (4).png", alt: "VSCode", baseAngle: 30, radius: 120 },
  
   // Icons positioned on the middle "ring"
-  { src: "../assets/Icon (6).png", alt: "GitHub", baseAngle: 50, radius: 80 },
-  { src: "../assets/Icon (7).png", alt: "Notion", baseAngle: 90, radius: 80 },
+  { src: "../../src/assets/Vector (6).png", alt: "GitHub", baseAngle: 50, radius: 80 },
+  { src: "../../src/assets/Vector (7).png", alt: "Notion", baseAngle: 90, radius: 80 },
   
   // Icon positioned on the innermost "ring"
-   { src: "../assets/Icon (5).png", alt: "React", baseAngle: 150, radius: 120 },
+   { src: "../../src/assets/Vector (5).png", alt: "React", baseAngle: 150, radius: 120 },
 ]
 
 const OrbitingTools = () => {
