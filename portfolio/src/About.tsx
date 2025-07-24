@@ -141,19 +141,19 @@ const about = () => {
             <div className="flex flex-row">
                 <div className="  flex flex-col m-10  place-items-center  bg-[#C2F6FF08] rounded-2xl w-[520px] ">
                     <div className="grid grid-cols-2 space-x-2 space-y-2 ">
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl text-sm">
                             <p>Frontend Developer </p>
                         </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl text-sm">
                             <p>Frontend Developer </p>
                         </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl text-sm">
                             <p>Frontend Developer </p>
                         </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl text-sm">
                             <p>Frontend Developer </p>
                         </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl">
+                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-2xl text-sm">
                             <p>Frontend Developer </p>
                         </div>
 
