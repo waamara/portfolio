@@ -41,7 +41,7 @@ const home = () => {
                         captionText="Aymen Berbiche - Software Engineer"
                         containerHeight="300px"
                         containerWidth="300px"
-                        imageHeight="345px"
+                        imageHeight="365px"
                         imageWidth="300px"
                         rotateAmplitude={15}
                         scaleOnHover={1.05}
@@ -49,7 +49,7 @@ const home = () => {
                         displayOverlayContent={false}
                     />
 
-                    <div className='flex flex-row justify-center text-center mt-14  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
+                    <div className='flex flex-row justify-center text-center mt-22  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
                             <img src={Pointimg} alt="icone" className="w-4 h-4 " />
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
@@ -57,7 +57,7 @@ const home = () => {
                     </div>
                 </div>
                 <div className="pt-10 pl-4">
-                    <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
+                    <div className="bg-[#EAF4FF08] p-8 pr-19  rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>Hola amigos! Aymen here — full-stack dev, CS graduate, and bioinformatics master’s student. <br />
                             I dream in code, live in VS Code, and break stuff just to fix it better. <br />
@@ -88,7 +88,7 @@ const home = () => {
                     </div>
                 </div>
             </div>
-            <br />
+            
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
                 <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[570px] ">
