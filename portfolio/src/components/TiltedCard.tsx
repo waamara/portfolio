@@ -118,7 +118,7 @@ export default function TiltedCard({
 
             {showTooltip && (
                 <motion.figcaption
-                    className="pointer-events-none absolute left-0 top-0 rounded-[4px] bg-gray-900 px-[10px] py-[4px] text-[10px] text-[#006aff] opacity-0 z-[3] hidden sm:block"
+                    className="pointer-events-none absolute left-0 top-0 rounded-[4px] bg-gray-900 px-[10px] cursor-copy py-[4px] text-[10px] text-[#bad0f0] opacity-0 z-[3] hidden sm:block"
                     style={{
                         x,
                         y,
