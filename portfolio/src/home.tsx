@@ -29,10 +29,8 @@ const home = () => {
         { id: 2, img: Me }
     ];
     return (
-        <div style={{
-            backgroundImage: `url($Bgimg)`,
-        }}
-            className="text-white bg-gray-950 opacity-100  p-8 md:flex md:flex-col">
+        <div 
+            className="text-white bg-[#0F0F0F]   p-8 md:flex md:flex-col">
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="p-10 ">

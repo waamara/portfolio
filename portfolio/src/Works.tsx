@@ -4,15 +4,13 @@ const Works = () => {
     return (
 
 
-        <div style={{
-            backgroundImage: `url($Bgimg)`,
-        }}
-            className="text-white bg-gray-950 opacity-100  p-8">
+        <div 
+            className="text-white bg-[#0F0F0F]   p-8">
             <div className="ml-8 mt-8">
                 <h1 className="text-2xl font-semibold pb-3 ">My Selected Projects : </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore</p>
             </div>
-             <hr className="text-[#A1CDFF1A] ml-8 mr-8 mt-8"  />
+            <hr className="text-[#A1CDFF1A] ml-8 mr-8 mt-8"  />
             <div className="   md:grid md:grid-cols-3 ">
                 <div className="m-4  rounded-xl ">
                     <div>
