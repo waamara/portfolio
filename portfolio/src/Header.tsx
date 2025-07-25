@@ -4,7 +4,7 @@ import Icone from "../src/assets/icon.png";
 
 const Header = () => {
     return (
-        <div className="text-white bg-[#0F0F0F] pt-10 pl-18 pr-20">
+        <div className="text-white  bg-[#0F0F0F] pt-10 pl-18 pr-20">
             <nav className="flex gap-4 justify-between">
                 <div className="flex gap-10">
                     <NavLink 

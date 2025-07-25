@@ -21,7 +21,9 @@ import Stack from "./components/Stack"
 import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
 import TextType from '../src/components/TextType';
-import Blur from "../src/assets/"
+import Blur from "../src/assets/a.png"
+import Pic from "../src/assets/VideoCapture_20250725-194611.jpg"
+import Bg from "../src/assets/Image.png"
 
 
 const home = () => {
@@ -30,8 +32,9 @@ const home = () => {
         { id: 2, img: Me }
     ];
     return (
-        <div 
-            className="text-white bg-[#0F0F0F]   p-8 md:flex md:flex-col">
+        <div
+            className="text-white  bg-[#0F0F0F]   p-8 md:flex md:flex-col">
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="p-10 ">
@@ -53,9 +56,7 @@ const home = () => {
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
                             <img src={Pointimg} alt="icone" className="w-4 h-4   rounded-4xl  " />
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
-                            <div className="h-2 w-2 bg-amber-200 border-12  rounded-full border-amber-50">
-                                
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const home = () => {
                             I dream in code, live in VS Code, and break stuff just to fix it better. <br />
 
                             Fun fact: I wanted to be a doctor… <br /> but turns out debugging is more fun than diagnosing.</p>
-                        <TextType 
+                        <TextType
                             text={["“ user-friendly web applications using the latest “"]}
                             typingSpeed={75}
                             pauseDuration={1500}
@@ -81,25 +82,25 @@ const home = () => {
                         </div>
                         <div className="flex flex-row space-x-10">
                             <a href="https://github.com/waamara">
-                            <div className=" hover:text-bold bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] cursor-pointer w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md"
-                                    href="https://github.com/waamara">Follow On Github</a>
-                            </div>
+                                <div className=" hover:text-bold bg-[#EAF4FF08] hover:bg-transparent border-[1px] hover:pl-6 hover:bg-opacity-100 border-[#A1CDFF14] cursor-pointer w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md"
+                                        href="https://github.com/waamara">Follow On Github</a>
+                                </div>
                             </a>
                             <a href="mailto:berbicheaymen@gmail.com">
-                            <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 cursor-pointer border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md"
-                                    href="mailto:berbicheaymen@gmail.com" email >Follow On Email</a>
-                            </div>
+                                <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-transparent  hover:pl-6 cursor-pointer  border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md"
+                                        href="mailto:berbicheaymen@gmail.com" email >Follow On Email</a>
+                                </div>
                             </a>
                             <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">
-                            <div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] cursor-pointer  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md  "
-                                    href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
-                            </div>
+                                <div className="bg-[#EAF4FF08] border-[1px] hover:bg-transparent border-[#A1CDFF14] cursor-pointer   hover:pl-6 w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md  "
+                                        href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -116,7 +117,7 @@ const home = () => {
                     <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <Stack 
+                    <Stack
                         randomRotation={true}
                         sensitivity={10}
                         sendToBackOnClick={false}
@@ -128,37 +129,32 @@ const home = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
             <div className="flex flex-row justify-around  ">
-                <div className=" flex flex-row p-6 mt-10 items-center justify-center border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
-
-
-
-                    <Stack
-                        randomRotation={true}
-                        sensitivity={180}
-                        sendToBackOnClick={false}
-                        cardDimensions={{ width: 200, height: 200 }}
-                        cardsData={images}
-                    />
-
+                <div style={{
+                    backgroundImage: `url(${Bg })`, 
+                }} className=" flex opacity-80 flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
+                    <img src={Pic} alt="My pic " className=" h-[220px] rounded-2xl" />
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
-                        <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
+                        <p className="text-[#CFCFCF]">Technology becomes habit-forming because it taps into core psychological triggers that affect how we think, feel, and behave.</p>
                         <div className="flex flex-row gap-3 mt-2">
 
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Backend </p>
+                                <p>Go </p>
+                            </div>
+                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
+                                <p>Express js </p>
                             </div>
 
 
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Open Mindes Club </p>
+                                <p>Next Js </p>
                             </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
-                                <p>Ai </p>
+                                <p>Api </p>
+                            </div>
+                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
+                                <p>Django </p>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[400px] border-[1px]  border-[#A1CDFF14]    bg-[#EAF4FF08] rounded-2xl">

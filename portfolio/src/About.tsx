@@ -29,6 +29,7 @@ import Gif from "../src/assets/téléchargement.gif"
 
 import { useEffect, useState } from "react";
 import OrbitingTools from "./components/OrbitingTools"
+import Blur from "../src/assets/a.png"
 
 const tags = [
     "Frontend Developer",
@@ -64,6 +65,8 @@ const about = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-[#0F0F0F]  p-8 md:flex md:flex-col">
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />   
+
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
                 <div className="pt-10 pl-4">

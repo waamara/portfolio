@@ -1,10 +1,13 @@
 import Image from "../src/assets/Rectangle 1928.png"
+import Blur from "../src/assets/a.png"
 
 const Works = () => {
     return (
 
 
         <div className="text-white bg-[#0F0F0F]   p-8">
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />   
+
             <hr className="text-[#A1CDFF1A] ml-8 mr-8 " />
             <div>
                 <div className="ml-8 mt-8">

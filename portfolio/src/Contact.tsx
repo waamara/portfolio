@@ -3,6 +3,7 @@ import Phone from "../src/assets/Phone Actions Receive--Streamline-Ultimate.png"
 import Email from "../src/assets/Envelope--Streamline-Ultimate.png";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Blur from "../src/assets/a.png"
 
 const Contact = () => {
     const form = useRef();
@@ -27,6 +28,8 @@ const Contact = () => {
 
     return (
         <div className="text-white bg-[#0F0F0F] p-8 h-screen">
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />   
+
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row pt-16 justify-around">
                 <div className="bg-[#0F0F0F] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px]">
