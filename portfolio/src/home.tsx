@@ -52,15 +52,18 @@ const home = () => {
 
                     <div className='flex flex-row justify-center text-center mt-22  pb-4  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
                         <div className="  mt-4  rounded-md flex flex-row text-center jusrtify-center items-center">
-                            <img src={Pointimg} alt="icone" className="w-4 h-4 " />
+                            <img src={Pointimg} alt="icone" className="w-4 h-4   rounded-4xl  " />
                             <p className="text-xl pl-8 font-semibold">Available For work</p>
+                            <div className="h-2 w-2 bg-amber-200 border-12  rounded-full border-amber-50">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="pt-10 pl-4">
                     <div className="bg-[#EAF4FF08] p-8 pr-19  rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
-                        <p>Hola amigos! Aymen here — full-stack dev, CS graduate, and bioinformatics master’s student. <br />
+                        <p>Hola amigos! Aymen here — Full-stack dev , CS graduate , and Bioinformatics Master’s Student. <br />
                             I dream in code, live in VS Code, and break stuff just to fix it better. <br />
 
                             Fun fact: I wanted to be a doctor… <br /> but turns out debugging is more fun than diagnosing.</p>
@@ -77,21 +80,28 @@ const home = () => {
                         <div className='flex flex-row items-center justify-between pt-4'>
                             <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
-                        <div className="flex flex-row space-x-5">
-
-                            <div className="bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                        <div className="flex flex-row space-x-10">
+                            <a href="https://github.com/waamara">
+                            <div className=" hover:text-bold bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] cursor-pointer w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
                                     href="https://github.com/waamara">Follow On Github</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                            </div>
+                            </a>
+                            <a href="mailto:berbicheaymen@gmail.com">
+                            <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 cursor-pointer border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md"
-                                    href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14]  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
+                                    href="mailto:berbicheaymen@gmail.com" email >Follow On Email</a>
+                            </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">
+                            <div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] cursor-pointer  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
                                 <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
                                 <a className=" pl-4 pb-12 rounded-md  "
                                     href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -107,11 +117,11 @@ const home = () => {
                     <p className="text-3xl mb-2  ">Testimonial </p>
                     <p className="mb-3 text-[#CFCFCF] ">About 40% of what you do, day in and day <br /> out, is done purely out of ha</p>
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
-                    <Stack
+                    <Stack 
                         randomRotation={true}
                         sensitivity={150}
                         sendToBackOnClick={false}
-                        cardDimensions={{ width: 400, height: 180 }}
+                        cardDimensions={{ width: 500, height: 250 }}
                         cardsData={testimonials}
                     />
                 </div>
