@@ -21,6 +21,7 @@ import Stack from "./components/Stack"
 import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
 import TextType from '../src/components/TextType';
+import Blur from "../src/assets/"
 
 
 const home = () => {
