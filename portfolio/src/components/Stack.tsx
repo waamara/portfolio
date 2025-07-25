@@ -1,9 +1,9 @@
-// src/components/Stack.tsx
+
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import CardRotate from "./CardRotate";
 import TestimonialCard from "./TestimonialCard";
-import { Testimonial } from '../testimonials';
+import { Testimonial } from "../testemonial";
 
 interface StackProps {
   randomRotation?: boolean;
@@ -16,10 +16,10 @@ interface StackProps {
 
 const Stack: React.FC<StackProps> = ({
   randomRotation = false,
-  sensitivity = 200,
+  sensitivity = 50,
   cardDimensions = { width: 400, height: 180 },
   cardsData = [],
-  animationConfig = { stiffness: 260, damping: 20 },
+  animationConfig = { stiffness: 560, damping: 50 },
   sendToBackOnClick = false
 }) => {
   const [cards, setCards] = useState<Testimonial[]>(cardsData);
@@ -45,7 +45,7 @@ const Stack: React.FC<StackProps> = ({
     >
       {cards.map((card, index) => {
         // Much smaller rotation for cleaner look
-        const randomRotate = randomRotation ? Math.random() * 3 - 1.5 : 0;
+        const randomRotate = randomRotation ? Math.random() * 0 - 1.5 : 0;
         
         return (
           <CardRotate

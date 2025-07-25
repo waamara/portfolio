@@ -119,7 +119,7 @@ const home = () => {
                     <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="text-[#55A4FF] mb-4 flex flex-row text-center gap-2 items-center border-b-[1px] w-[170px] "> More on my LinkedIn <img src={Arrow} alt="asset" className="w-[10px] h-[10px] " /></a>
                     <Stack 
                         randomRotation={true}
-                        sensitivity={150}
+                        sensitivity={10}
                         sendToBackOnClick={false}
                         cardDimensions={{ width: 500, height: 250 }}
                         cardsData={testimonials}
