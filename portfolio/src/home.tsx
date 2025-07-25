@@ -20,13 +20,14 @@ import SpotlightCard from "./components/SpotlightCard"
 import Stack from "./components/Stack"
 import testimonials from "./testemonial"
 import Stack1 from "./components/Stack1"
+import TextType from '../src/components/TextType';
 
 
 const home = () => {
-      const images = [
-                        {id: 1, img: Me},
-                        {id: 2, img: Me  }
-                        ];
+    const images = [
+        { id: 1, img: Me },
+        { id: 2, img: Me }
+    ];
     return (
         <div style={{
             backgroundImage: `url($Bgimg)`,
@@ -63,7 +64,14 @@ const home = () => {
                             I dream in code, live in VS Code, and break stuff just to fix it better. <br />
 
                             Fun fact: I wanted to be a doctor… <br /> but turns out debugging is more fun than diagnosing.</p>
-                        <p className="text-[#55A4FF] mt-2">“ user-friendly web applications using the latest “</p>
+                        <TextType 
+                            text={["“ user-friendly web applications using the latest “"]}
+                            typingSpeed={75}
+                            pauseDuration={1500}
+                            showCursor={true}
+                            cursorCharacter="|"
+                            className="inline-block whitespace-pre-wrap ml-1 opacity-100 text-[#55A4FF] mt-2"
+                        />
                     </div>
                     <div className='flex flex-col   ' >
                         <div className='flex flex-row items-center justify-between pt-4'>
@@ -88,7 +96,7 @@ const home = () => {
                     </div>
                 </div>
             </div>
-            
+
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row">
                 <div className="   m-10  items-center justify-center bg-[#C2F6FF08] rounded-2xl w-[570px] ">
@@ -112,17 +120,17 @@ const home = () => {
             <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
             <div className="flex flex-row justify-around  ">
                 <div className=" flex flex-row p-6 mt-10 items-center justify-center border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
-                    
 
-                      
-                        <Stack
-                            randomRotation={true}
-                            sensitivity={180}
-                            sendToBackOnClick={false}
-                            cardDimensions={{ width: 200, height: 200 }}
-                            cardsData={images}
-                        />
-                    
+
+
+                    <Stack
+                        randomRotation={true}
+                        sensitivity={180}
+                        sendToBackOnClick={false}
+                        cardDimensions={{ width: 200, height: 200 }}
+                        cardsData={images}
+                    />
+
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
                         <p className="text-[#CFCFCF]">About 40% of what you do, day in and <br /> day out, is done  Nir Eyal decodes <br /> how technology ...</p>
@@ -147,7 +155,7 @@ const home = () => {
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[400px] border-[1px]  border-[#A1CDFF14]    bg-[#EAF4FF08] rounded-2xl">
                     <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
                     <p>Feel free to reach out anytime you <br /> have a project idea </p>
-                    <a href="../../portfolio/src/Contact.tsx" className="mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]"> 
+                    <a href="../../portfolio/src/Contact.tsx" className="mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]">
                         <p>Reach out</p>
                         <img src={Arrow} alt="Arrow icone" className="w-3 h-3" />
                     </a>

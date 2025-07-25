@@ -2,7 +2,6 @@
 
 import { ElementType, useEffect, useRef, useState, createElement } from "react";
 import { gsap } from "gsap";
-import "./TextType.css";
 
 interface TextTypeProps {
     className?: string;
@@ -39,7 +38,7 @@ const TextType = ({
     cursorCharacter = "|",
     cursorClassName = "",
     cursorBlinkDuration = 0.5,
-    textColors = [],
+    textColors = ["55A4FF"],
     variableSpeed,
     onSentenceComplete,
     startOnVisible = false,
