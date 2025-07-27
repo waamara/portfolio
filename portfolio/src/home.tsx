@@ -2,7 +2,7 @@ import Bgimg from "../../portfolio/src/assets/backgr.png"
 import Seepng from "../../portfolio/src/assets/see.png"
 import Dowlandpng from "../../portfolio/src/assets/dowland.png"
 import Mypic from "../../portfolio/src/assets/me.jpg"
-import Pointimg from "../../portfolio/src/assets/point.png"
+import Pointimg from "../../portfolio/src/assets/Pulsating animation.gif"
 import Foldericone from "../../portfolio/src/assets/folder.png"
 import Img from "../../portfolio/src/assets/img.png"
 import More from "../../portfolio/src/assets/More.png"
@@ -57,7 +57,7 @@ const home = () => {
                     </div>
                 </div>
                 <div className="pt-10 pl-4">
-                    <div className="bg-[#EAF4FF08] p-8 pr-19  rounded-2xl border-[#A1CDFF1A] border-[1px]">
+                    <div className="bg-[#EAF4FF08] p-8 pr-16  rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>Hola amigos! Aymen here — Full-stack dev , CS graduate , and Bioinformatics Master’s Student. <br />
                             I dream in code, live in VS Code, and break stuff just to fix it better. <br />

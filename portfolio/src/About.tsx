@@ -69,11 +69,14 @@ const about = () => {
 
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
-                <div className="pt-10 pl-4">
-                    <div className="bg-[#EAF4FF08] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
+                <div className="pt-10 pl-8 ">
+                    <div className="bg-[#EAF4FF08] h-[340px] p-4 rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">About The Developer </p> <br />
-                        <p>I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
-                        <p className="mt-1">I'm Aymen, a passionate frontend developer and a computer science <br /> student at USTHBI'm Aymen, a passionate frontend developer and a <br />computer science  student at USTHB</p>
+                        <p>A dedicated developer with a solid foundation in both frontend and backend technologies. I specialize in building modern, responsive applications using React and Tailwind CSS on the frontend, and I work with Node.js, Express.js,  and PHP on the backend as I continue to grow as a full-stack developer.
+
+I hold a Bachelor’s degree in Computer Science, and I’m currently pursuing a Master’s degree in Bioinformatics, where I aim to bridge the gap between technology and biological data analysis.
+
+I'm focused on writing clean, maintainable code and building scalable applications that solve real-world problem.</p>
                         <p className="text-xl mt-2"> Core Values : </p>
 
 
@@ -82,21 +85,28 @@ const about = () => {
                         <div className='flex flex-row items-center justify-between pt-4'>
                             <p className="font-semibold text-3xl mb-4">Get In Touch</p>
                         </div>
-                        <div className="flex flex-row space-x-5 mt-1">
-
-                            <div className="bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md"
-                                    href="https://github.com/waamara">Follow On Github</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md"
-                                    href="mailto:berbicheaymen@gmail.com" email>Follow On Email</a>
-                            </div><div className="bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14]  hover:bg-gray-950 w-[230px] h-[130px] rounded-2xl ">
-                                <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                <a className=" pl-4 pb-12 rounded-md  "
-                                    href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
-                            </div>
+                        <div className="flex flex-row space-x-12">
+                            <a href="https://github.com/waamara">
+                                <div className=" hover:text-bold bg-[#EAF4FF08] hover:bg-transparent border-[1px] hover:pl-6 hover:bg-opacity-100 border-[#A1CDFF14] cursor-pointer w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Githubi} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md"
+                                        href="https://github.com/waamara">Follow On Github</a>
+                                </div>
+                            </a>
+                            <a href="mailto:berbicheaymen@gmail.com">
+                                <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-transparent  hover:pl-6 cursor-pointer  border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md"
+                                        href="mailto:berbicheaymen@gmail.com" email >Follow On Email</a>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">
+                                <div className="bg-[#EAF4FF08] border-[1px] hover:bg-transparent border-[#A1CDFF14] cursor-pointer   hover:pl-6 w-[230px] h-[130px] rounded-2xl ">
+                                    <img src={Linkdini} alt="instagram-icone" className="flex -mt-3 -ml-2" />
+                                    <a className=" pl-4 pb-12 rounded-md  "
+                                        href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">Follow On Linkedin</a>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -123,15 +133,15 @@ const about = () => {
                     </div>
                     <div className="flex flex-row  pt-4 space-x-4">
                         <a href="../src/assets/AYMEN BERBICHE.pdf">
-                            <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <div className=" p-5 w-[140px] h-[100px] hover:bg-transparent flex flex-col  items-center bg-[#EAF4FF08] border-[1px]   border-[#A1CDFF14]  rounded-2xl ">
                                 <p>See My <br /> Resume</p>
-                                <img src={Sicone} alt="icone" className="flex h-3 w-3 mt-2" />
+                                <img src={Sicone} alt="icone" className="flex h-4 w-4 mt-2" />
                             </div>
                         </a>
                         <a href="../src/assets/AYMEN BERBICHE.pdf" download>
-                            <div className=" p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  hover:bg-gray-950 border-[#A1CDFF14]  rounded-2xl ">
+                            <div className=" hover:bg-transparent p-5 w-[140px] h-[100px] flex flex-col  items-center bg-[#EAF4FF08] border-[1px]  border-[#A1CDFF14]  rounded-2xl ">
                                 <p>Dowland <br /> Resume</p>
-                                <img src={Ficone} alt="icone" className="flex h-3 w-3 mt-2 " />
+                                <img src={Ficone} alt="icone" className="flex h-4 w-4 mt-2 " />
                             </div>
                         </a>
 
