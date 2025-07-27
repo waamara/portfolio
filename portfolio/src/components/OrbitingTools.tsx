@@ -7,13 +7,13 @@ const icons = [
   { src: "../../src/assets/Vector (2).png", alt: "JS", baseAngle: 20, radius: 160 },
   { src: "../../src/assets/Vector (3).png", alt: "Java", baseAngle: 160, radius: 160 },
   { src: "../../src/assets/Vector (4).png", alt: "VSCode", baseAngle: 30, radius: 120 },
- 
+
   // Icons positioned on the middle "ring"
   { src: "../../src/assets/Vector (6).png", alt: "GitHub", baseAngle: 50, radius: 80 },
   { src: "../../src/assets/Vector (7).png", alt: "Notion", baseAngle: 90, radius: 80 },
   
   // Icon positioned on the innermost "ring"
-   { src: "../../src/assets/Vector (5).png", alt: "React", baseAngle: 150, radius: 120 },
+  { src: "../../src/assets/Vector (5).png", alt: "React", baseAngle: 150, radius: 120 },
 ]
 
 const OrbitingTools = () => {
@@ -27,14 +27,10 @@ const OrbitingTools = () => {
   }, [])
 
   return (
-    <div className="relative mx-auto my-12 flex h-[180px] w-[350px] items-end justify-center overflow-hidden rounded-2xl  bg-[#0A101C] pb-0.5">
+    <div className="relative  my-12 flex h-[180px] w-[350px] items-end justify-center overflow-hidden rounded-2xl  bg-[#0A101C] pb-0.5">
       {/* Subtle dotted background pattern */}
       <div
         className="absolute inset-0 z-0 opacity-20"
-        style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, #ffffff 1px, transparent 0)`,
-          backgroundSize: `10px 10px`,
-        }}
       ></div>
 
       {/* Concentric Semicircle backgrounds */}

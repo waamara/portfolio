@@ -67,7 +67,7 @@ const about = () => {
             backgroundImage: `url($Bgimg)`,
         }}
             className="text-white bg-[#0F0F0F]  p-8 md:flex md:flex-col">
-            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />   
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />
 
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row ">
@@ -76,9 +76,9 @@ const about = () => {
                         <p className="text-3xl font-semibold ">About The Developer </p> <br />
                         <p>A dedicated developer with a solid foundation in both frontend and backend technologies. I specialize in building modern, responsive applications using React and Tailwind CSS on the frontend, and I work with Node.js, Express.js,  and PHP on the backend as I continue to grow as a full-stack developer.
 
-I hold a Bachelor’s degree in Computer Science, and I’m currently pursuing a Master’s degree in Bioinformatics, where I aim to bridge the gap between technology and biological data analysis.
+                            I hold a Bachelor’s degree in Computer Science, and I’m currently pursuing a Master’s degree in Bioinformatics, where I aim to bridge the gap between technology and biological data analysis.
 
-I'm focused on writing clean, maintainable code and building scalable applications that solve real-world problem.</p>
+                            I'm focused on writing clean, maintainable code and building scalable applications that solve real-world problem.</p>
                         <p className="text-xl mt-2"> Core Values : </p>
 
 
@@ -154,33 +154,37 @@ I'm focused on writing clean, maintainable code and building scalable applicatio
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row ">
-                <div 
-                style={{
-                    backgroundImage: `url(${Bg })`, 
-                }}
-                className=" bg-no-repeat bg-bottom flex flex-col m-10  place-items-center border-1 border-[#A1CDFF14] bg-[#C2F6FF08] rounded-2xl w-[470px] ">
-                    <div className="grid grid-cols-2 space-x-2 space-y-2 ">
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl  text-sm">
-                            <p>Frontend Developer </p>
+                <div
+                    style={{
+                        backgroundImage: `url(${Bg})`,
+                    }}
+                    className=" bg-no-repeat bg-bottom flex flex-col m-10  place-items-center border-1 border-[#A1CDFF14] bg-[#C2F6FF08] rounded-2xl h-[480px] w-[470px] ">
+                    <div className="items-center space-y-3 mb-6 mt-8 justify-center flex flex-col">
+                        <div className="flex-row flex space-x-7 ">
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl  text-sm">
+                                <p>Frontend Developer </p>
+                            </div>
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
+                                <p>Backend Developer </p>
+                            </div>
+                        </div>
+                        <div className="flex-row flex space-x-5">
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
+                                <p>Site Optimization </p>
+                            </div>
+                            <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
+                                <p>Database Creation  </p>
+                            </div>
                         </div>
                         <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
-                            <p>Frontend Developer </p>
-                        </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
-                            <p>Frontend Developer </p>
-                        </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
-                            <p>Frontend Developer </p>
-                        </div>
-                        <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl text-sm">
-                            <p>Frontend Developer </p>
+                            <p>Ui Ux Design </p>
                         </div>
 
                     </div>
                     <div>
                         <div className="flex flex-col items-center text-center ">
                             <p className="text-4xl mb-2">tools & skills</p>
-                            <p>tempor incididunt ut labore elit, tempor <br /> incididunt ut labore elit,  </p>
+                            <p>Tools that i use to create  My web  <br /> Applications </p>
                             <main className="flex  flex-col items-center justify-center ">
                                 <OrbitingTools />
                             </main>

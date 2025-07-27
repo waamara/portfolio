@@ -80,21 +80,21 @@ const Contact = () => {
                         free to connect however it suits you best.
                     </p>
                     <div className="mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <a href="https://maps.app.goo.gl/gDqYRgsN18RdwNTS9" className="flex flex-row space-x-4">
+                        <a href="https://maps.app.goo.gl/gDqYRgsN18RdwNTS9" className="hover:font-semibold hover:text-blue-300 flex flex-row space-x-4">
                             <p>Location</p>
                             <img src={Location} alt="Location Icone" />
                             <p>Algiers, Algeria</p>
                         </a>
                     </div>
                     <div className="mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <a href="mailto:berbicheaymen@gmail.com" className="flex flex-row space-x-3">
+                        <a href="mailto:berbicheaymen@gmail.com" className="flex flex-row space-x-3 hover:font-semibold hover:text-blue-300">
                             <p>Email</p>
                             <img src={Email} alt="Email Icone" />
                             <p>berbicheaymen@gmail.com</p>
                         </a>
                     </div>
                     <div className="mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <a href="tel:+2130658830028" className="flex flex-row space-x-3">
+                        <a href="tel:+2130658830028" className="flex flex-row space-x-3 hover:font-semibold hover:text-blue-300">
                             <p>Phone</p>
                             <img src={Phone} alt="Phone Icone" />
                             <p>+2136588300028</p>
