@@ -32,7 +32,7 @@ const Contact = () => {
 
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row pt-16 justify-around">
-                <div className="bg-[#0F0F0F] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px]">
+                <div className="bg-[#EAF4FF08] p-12 border-1 rounded-2xl border-[#A1CDFF14] h-[450px] w-[700px]">
                     <form ref={form} onSubmit={sendEmail}>
                         <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                         <p className="pb-4">

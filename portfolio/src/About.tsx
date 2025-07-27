@@ -184,21 +184,21 @@ I'm focused on writing clean, maintainable code and building scalable applicatio
                 <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
                     <p className="text-3xl mb-2  ">Quick Stats </p>
                     <div className="flex flex-row pt-4 space-x-4">
-                        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+                        <div className="p-2 w-[160px] h-[120px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
                             <p className="text-2xl font-semibold pb-1">
                                 + <CountUp end={12} duration={2000} />
                             </p>
                             <p>Completed Projects</p>
                         </div>
 
-                        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+                        <div className="p-2 w-[160px] h-[120px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
                             <p className="text-2xl font-semibold pb-1">
                                 + <CountUp end={3} duration={1500} />
                             </p>
                             <p>Years of Experience</p>
                         </div>
 
-                        <div className="p-2 w-[140px] h-[110px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+                        <div className="p-2 w-[160px] h-[140px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
                             <p className="text-2xl font-semibold pb-1">
                                 + <CountUp end={267} duration={2500} />
                             </p>
