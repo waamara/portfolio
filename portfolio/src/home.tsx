@@ -27,10 +27,6 @@ import Bg from "../src/assets/Image.png"
 
 
 const home = () => {
-    const images = [
-        { id: 1, img: Me },
-        { id: 2, img: Me }
-    ];
     return (
         <div
             className="text-white  bg-[#0F0F0F]   p-8 md:flex md:flex-col">
@@ -141,7 +137,7 @@ const home = () => {
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Go </p>
                             </div>
-                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
+                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Express js </p>
                             </div>
 
@@ -151,7 +147,7 @@ const home = () => {
                             </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Api </p>
                             </div>
-                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
+                            <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Django </p>
                             </div>
                         </div>
