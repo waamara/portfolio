@@ -24,43 +24,44 @@ const Stack: React.FC<StackProps> = ({
   animationConfig = { stiffness: 560, damping: 50 },
   sendToBackOnClick = false,
 }) => {
-  const [cards, setCards] = useState<Testimonial[]>(cardsData)
+  const [currentIndex, setCurrentIndex] = useState(0)
 
-  const sendToBack = (id: number) => {
-    setCards((prev) => {
-      const newCards = [...prev]
-      const index = newCards.findIndex((card) => card.id === id)
-      const [card] = newCards.splice(index, 1)
-      newCards.unshift(card)
-      return newCards
-    })
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev + 1) % cardsData.length)
   }
+
+  const handleDragNext = () => {
+    setCurrentIndex((prev) => (prev + 1) % cardsData.length)
+  }
+
+  // Only show current card and next card (max 2 cards)
+  const visibleCards = [cardsData[currentIndex], cardsData[(currentIndex + 1) % cardsData.length]]
 
   return (
     <div
       className="relative"
       style={{
         width: cardDimensions.width,
-        height: cardDimensions.height + cards.length * 8, // Add extra height for stacking
+        height: cardDimensions.height + 12, // Only space for 2 cards
         perspective: "none",
       }}
     >
-      {cards.map((card, index) => {
+      {visibleCards.map((card, index) => {
         return (
-          <CardRotate key={card.id} onSendToBack={() => sendToBack(card.id)} sensitivity={sensitivity}>
+          <CardRotate
+            key={`${card.id}-${currentIndex}`} // Key changes to force re-render
+            onSendToBack={handleDragNext}
+            sensitivity={sensitivity}
+          >
             <motion.div
               className="rounded-2xl overflow-hidden"
-              onClick={() => sendToBackOnClick && sendToBack(card.id)}
+              onClick={() => sendToBackOnClick && handleNext()}
               animate={{
-                // No rotation at all
                 rotateZ: 0,
-                // Slight scale difference to show depth
-                scale: 1 - index * 0.02,
-                // Offset each card slightly to show the ones underneath
-                x: index * 4,
-                y: index * 8,
-                // Z-index to ensure proper stacking
-                zIndex: cards.length - index,
+                scale: 1 - index * 0.025,
+                x: index * 6,
+                y: index * 12,
+                zIndex: 2 - index, // Only 2 layers
               }}
               initial={false}
               transition={{
@@ -74,7 +75,7 @@ const Stack: React.FC<StackProps> = ({
                 position: "absolute",
               }}
             >
-              <TestimonialCard testimonial={card} />
+              <TestimonialCard testimonial={card} onNext={handleNext} />
             </motion.div>
           </CardRotate>
         )
