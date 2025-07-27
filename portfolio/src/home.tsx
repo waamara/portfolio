@@ -24,6 +24,7 @@ import TextType from '../src/components/TextType';
 import Blur from "../src/assets/a.png"
 import Pic from "../src/assets/VideoCapture_20250725-194611.jpg"
 import Bg from "../src/assets/Mask Group.png"
+import { NavLink } from "react-router-dom";
 
 
 const home = () => {
@@ -153,16 +154,19 @@ const home = () => {
                 <div className=" flex flex-col p-6 mt-10 items-center justify-center text-center  md:w-[400px] border-[1px]  border-[#A1CDFF14]    bg-[#EAF4FF08] rounded-2xl">
                     <p className="text-3xl font-semibold pb-4">Let's Create Something <br /> Great Together !</p>
                     <p>Feel free to reach out anytime you <br /> have a project idea </p>
-                    <a href="../../portfolio/src/Contact.tsx" className="mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]">
+                    <NavLink 
+                        to="/contact" 
+                        className="mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]">
                         <p>Reach out</p>
                         <img src={Arrow} alt="Arrow icone" className="w-3 h-3" />
-                    </a>
+                    </NavLink>
                 </div>
             </div>
             <hr className="text-[#A1CDFF1A] mt-10 ml-8 mr-8" />
             <div className="flex justify-center items-center mt-8  ">
                 <p> Made By Aymen  &copy; {new Date().getFullYear()}   </p>
             </div>
+          
         </div>
         
     )

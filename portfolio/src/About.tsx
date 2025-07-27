@@ -30,6 +30,7 @@ import Gif from "../src/assets/téléchargement.gif"
 import { useEffect, useState } from "react";
 import OrbitingTools from "./components/OrbitingTools"
 import Blur from "../src/assets/a.png"
+import Bg from "../src/assets/Image.png"
 
 const tags = [
     "Frontend Developer",
@@ -152,8 +153,12 @@ I'm focused on writing clean, maintainable code and building scalable applicatio
             </div>
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
-            <div className="flex flex-row">
-                <div className="  flex flex-col m-10  place-items-center  bg-[#C2F6FF08] rounded-2xl w-[520px] ">
+            <div className="flex flex-row ">
+                <div 
+                style={{
+                    backgroundImage: `url(${Bg })`, 
+                }}
+                className=" bg-no-repeat bg-bottom flex flex-col m-10  place-items-center border-1 border-[#A1CDFF14] bg-[#C2F6FF08] rounded-2xl w-[470px] ">
                     <div className="grid grid-cols-2 space-x-2 space-y-2 ">
                         <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl  text-sm">
                             <p>Frontend Developer </p>
