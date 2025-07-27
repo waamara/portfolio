@@ -50,7 +50,8 @@ const AutoTagCarousel = () => {
 
     return (
         <div className="flex flex-row space-x-1.5 mt-2 transition-all duration-700 ease-in-out">
-            <div className="bg-[#3F82FF1C] border border-[#A1CDFF14] p-2 rounded-2xl min-w-[200px] text-center">
+            <div className="bg-[#3F82FF1C] border border-[#A1CDFF14] p-2 rounded-2xl min-w-[200px]
+             text-center">
                 <p>{tags[index]}</p>
             </div>
         </div>
@@ -181,24 +182,24 @@ I'm focused on writing clean, maintainable code and building scalable applicatio
                         </div>
                     </div>
                 </div>
-                <div className=" flex flex-col p-6 mt-3  rounded-2xl md:w-[500px]">
-                    <p className="text-3xl mb-2  ">Quick Stats </p>
-                    <div className="flex flex-row pt-4 space-x-4">
-                        <div className="p-2 w-[160px] h-[120px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
-                            <p className="text-2xl font-semibold pb-1">
+                <div className=" flex flex-col p-6 mt-12  rounded-2xl md:w-[]">
+                    <p className="text-3xl mb-6  ">Quick Stats </p>
+                    <div className="flex mb-4 flex-row pt-4 space-x-12">
+                        <div className="p-2 w-[160px] h-[120px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px]  border-[#A1CDFF14] rounded-2xl">
+                            <p className="text-2xl font-semibold pb-1 pt-2">
                                 + <CountUp end={12} duration={2000} />
                             </p>
-                            <p>Completed Projects</p>
+                            <p>Completed <br /> Projects</p>
                         </div>
 
-                        <div className="p-2 w-[160px] h-[120px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+                        <div className="p-2 w-[160px] h-[120px] flex flex-col pt-4 items-center text-center bg-[#EAF4FF08] border-[1px]  border-[#A1CDFF14] rounded-2xl">
                             <p className="text-2xl font-semibold pb-1">
                                 + <CountUp end={3} duration={1500} />
                             </p>
-                            <p>Years of Experience</p>
+                            <p>Years of <br /> Experience</p>
                         </div>
 
-                        <div className="p-2 w-[160px] h-[140px] flex flex-col items-center text-center bg-[#EAF4FF08] border-[1px] hover:bg-gray-950 border-[#A1CDFF14] rounded-2xl">
+                        <div className="p-2 w-[160px] h-[120px] flex flex-col pt-4 items-center text-center bg-[#EAF4FF08] border-[1px]  border-[#A1CDFF14] rounded-2xl">
                             <p className="text-2xl font-semibold pb-1">
                                 + <CountUp end={267} duration={2500} />
                             </p>
@@ -208,13 +209,13 @@ I'm focused on writing clean, maintainable code and building scalable applicatio
                         </div>
                     </div>
                     <div className="flex  p-3 text-center mt-6 space-x-6  bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl">
-                        <p>Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
+                        <p className="p-4">Behind every great website is a <br /> developer running on coffee, <br /> stubbornness, and pure creative <br /> energy. <br />
                             so Don’t worry  your code is in safe <br /> hands :)
                         </p>
                         <img
                             src={Gif}
                             alt="Anime video"
-                            className=" w-[150px] rounded-2xl "
+                            className=" w-[250px] rounded-2xl "
                         />
                     </div>
                 </div>
