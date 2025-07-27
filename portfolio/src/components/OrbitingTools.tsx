@@ -27,10 +27,10 @@ const OrbitingTools = () => {
   }, [])
 
   return (
-    <div className="relative  my-12 flex h-[180px] w-[350px] items-end justify-center overflow-hidden rounded-2xl  bg-[#0A101C] pb-0.5">
+    <div className="relative  my-12 flex h-[180px] w-[350px] -mt-[0.2px] items-end justify-center overflow-hidden rounded-2xl bg-transparent  bg-[#0A101C] pb-0.5">
       {/* Subtle dotted background pattern */}
       <div
-        className="absolute inset-0 z-0 opacity-20"
+        className=""
       ></div>
 
       {/* Concentric Semicircle backgrounds */}
