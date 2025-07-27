@@ -23,7 +23,7 @@ import Stack1 from "./components/Stack1"
 import TextType from '../src/components/TextType';
 import Blur from "../src/assets/a.png"
 import Pic from "../src/assets/VideoCapture_20250725-194611.jpg"
-import Bg from "../src/assets/Image.png"
+import Bg from "../src/assets/"
 
 
 const home = () => {
@@ -127,21 +127,18 @@ const home = () => {
             <div className="flex flex-row justify-around  ">
                 <div style={{
                     backgroundImage: `url(${Bg })`, 
-                }} className=" flex opacity-80 flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
+                }} className=" flex flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
                     <img src={Pic} alt="My pic " className=" h-[220px] rounded-2xl" />
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
                         <p className="text-[#CFCFCF]">Technology becomes habit-forming because it taps into core psychological triggers that affect how we think, feel, and behave.</p>
                         <div className="flex flex-row gap-3 mt-2">
-
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Go </p>
                             </div>
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Express js </p>
                             </div>
-
-
                             <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
                                 <p>Next Js </p>
                             </div> <div className=" border-[1px] border-[#A1CDFF14] p-1.5 pl-2 pr-2  bg-[#3F82FF1C] text-[#55A4FF] rounded-xl">
@@ -167,6 +164,7 @@ const home = () => {
                 <p> Made By Aymen  &copy; {new Date().getFullYear()}   </p>
             </div>
         </div>
+        
     )
 }
 
