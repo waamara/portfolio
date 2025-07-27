@@ -23,7 +23,7 @@ import Stack1 from "./components/Stack1"
 import TextType from '../src/components/TextType';
 import Blur from "../src/assets/a.png"
 import Pic from "../src/assets/VideoCapture_20250725-194611.jpg"
-import Bg from "../src/assets/"
+import Bg from "../src/assets/Mask Group.png"
 
 
 const home = () => {
@@ -127,7 +127,7 @@ const home = () => {
             <div className="flex flex-row justify-around  ">
                 <div style={{
                     backgroundImage: `url(${Bg })`, 
-                }} className=" flex flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
+                }} className=" bg-no-repeat flex flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
                     <img src={Pic} alt="My pic " className=" h-[220px] rounded-2xl" />
                     <div className="ml-4">
                         <p className="text-2xl mt-2 mb-2">What makes technology <br /> so habit-forming?</p>
