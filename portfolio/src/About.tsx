@@ -154,11 +154,11 @@ const about = () => {
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row ">
-                <div
-                    style={{
-                        backgroundImage: `url(${Bg})`,
-                    }}
-                    className=" bg-no-repeat bg-bottom flex flex-col m-10  place-items-center border-1 border-[#A1CDFF14] bg-[#C2F6FF08] rounded-2xl h-[480px] w-[470px] ">
+                <div 
+                style={{
+                    backgroundImage: `url(${Bg })`, 
+                }}
+                    className=" bg-no-repeat bg-bottom  flex flex-col m-10  place-items-center border-1 border-[#A1CDFF14] bg-[#C2F6FF08] rounded-2xl h-[470px] w-[470px] ">
                     <div className="items-center space-y-3 mb-6 mt-8 justify-center flex flex-col">
                         <div className="flex-row flex space-x-7 ">
                             <div className="bg-[#3F82FF1C] border-1 border-[#A1CDFF14] p-2 rounded-xl  text-sm">
@@ -183,7 +183,7 @@ const about = () => {
                     </div>
                     <div>
                         <div className="flex flex-col items-center text-center ">
-                            <p className="text-4xl mb-2">tools & skills</p>
+                            <p className="text-4xl mb-2">Tools & Skills</p>
                             <p>Tools that i use to create  My web  <br /> Applications </p>
                             <main className="flex  flex-col items-center justify-center ">
                                 <OrbitingTools />

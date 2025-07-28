@@ -28,7 +28,7 @@ const Contact = () => {
 
     return (
         <div className="text-white bg-[#0F0F0F] p-8 h-screen">
-            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />   
+            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />
 
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="flex flex-row pt-16 justify-around">
@@ -36,8 +36,8 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <p className="text-3xl font-semibold pb-3">Let's Connect !</p>
                         <p className="pb-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />
-                            eiusmod tempor incididunt ut labore
+                            Have a question, collaboration idea, or just want to say hello? <br />
+                            Feel free to reach out and I’ll get back to you as soon as possible.
                         </p>
                         <div className="flex flex-col mt-12">
                             <div className="flex flex-col md:flex-row space-x-20">
@@ -93,8 +93,8 @@ const Contact = () => {
                             <p>berbicheaymen@gmail.com</p>
                         </a>
                     </div>
-                    <div className="mt-4 border-b-1 border-b-[#55A4FF] p-2">
-                        <a href="tel:+2130658830028" className="flex flex-row space-x-3 hover:font-semibold hover:text-blue-300">
+                    <div className="mt-4 border-b-1 border-b-[#55A4FF] p-2 hover:text-blue-300 hover:font-semibold">
+                        <a href="tel:+2130658830028" className="flex flex-row space-x-3 ">
                             <p>Phone</p>
                             <img src={Phone} alt="Phone Icone" />
                             <p>+2136588300028</p>
@@ -102,7 +102,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-             <hr className="text-[#A1CDFF1A] mt-10 ml-8 mr-8" />
+            <hr className="text-[#A1CDFF1A] mt-10 ml-8 mr-8" />
             <div className="flex justify-center items-center mt-8  ">
                 <p> Made By Aymen  &copy; {new Date().getFullYear()}   </p>
             </div>

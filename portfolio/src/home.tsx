@@ -156,7 +156,7 @@ const home = () => {
                     <p>Feel free to reach out anytime you <br /> have a project idea </p>
                     <NavLink 
                         to="/contact" 
-                        className="mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]">
+                        className="hover:font-semibold hover:text-white mt-8 text-[#55A4FF] flex pb-1 flex-row space-x-3 items-center border-b-1 border-b-[#55A4FF]">
                         <p>Reach out</p>
                         <img src={Arrow} alt="Arrow icone" className="w-3 h-3" />
                     </NavLink>
@@ -166,7 +166,6 @@ const home = () => {
             <div className="flex justify-center items-center mt-8  ">
                 <p> Made By Aymen  &copy; {new Date().getFullYear()}   </p>
             </div>
-          
         </div>
         
     )

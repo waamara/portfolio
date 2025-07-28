@@ -27,16 +27,16 @@ const OrbitingTools = () => {
   }, [])
 
   return (
-    <div className="relative  my-12 flex h-[180px] w-[350px] -mt-[0.2px] items-end justify-center overflow-hidden rounded-2xl bg-transparent  bg-[#0A101C] pb-0.5">
+    <div className="relative  my-12 flex h-[180px] w-[350px] bg-transparent items-end justify-center overflow-hidden rounded-2xl  -mt-[0.01px]  pb-0.5">
       {/* Subtle dotted background pattern */}
       <div
         className=""
       ></div>
 
       {/* Concentric Semicircle backgrounds */}
-      <div className="absolute bottom-0 left-1/2 z-10 h-[150px] w-[300px] -translate-x-1/2 rounded-t-full border-t border-[#1E90FF22] bg-[#1E90FF05]"></div>
-      <div className="absolute bottom-0 left-1/2 z-20 h-[100px] w-[200px] -translate-x-1/2 rounded-t-full border-t border-[#1E90FF22] bg-[#1E90FF08]"></div>
-      <div className="absolute bottom-0 left-1/2 z-30 h-[50px] w-[100px] -translate-x-1/2 rounded-t-full border-t border-[#1E90FF22] bg-[#1E90FF0B]"></div>
+      <div className="absolute bottom-0 left-1/2 z-10 h-[160px] w-[320px] -translate-x-1/2 rounded-t-full border-t border-[#2E73F31A] bg-[#1E90FF05]"></div>
+      <div className="absolute bottom-0 left-1/2 z-20 h-[110px] w-[210px] -translate-x-1/2 rounded-t-full border-t border-[#2E73F329] bg-[#1E90FF08]"></div>
+      <div className="absolute bottom-0 left-1/2 z-30 h-[60px] w-[110px] -translate-x-1/2 rounded-t-full border-t border-[#2E73F31F] bg-[#1E90FF0B]"></div>
 
       {/* Rotating container for icons */}
       <div
