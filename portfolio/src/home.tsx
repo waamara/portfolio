@@ -30,11 +30,11 @@ import { NavLink } from "react-router-dom";
 const home = () => {
     return (
         <div
-            className="text-white  bg-[#0F0F0F]   p-8 md:flex md:flex-col">
-            <img src={Blur} alt="Blur eefect " className=" absolute scale-z-75  pointer-events-none top-0  right-0 left-0 mask-radial-from-0  -mt-[650px]   " />
+            className="text-white flex flex-col bg-[#0F0F0F] p-8 overflow-x-hidden md:flex md:flex-col">
+            <img src={Blur} alt="Blur eefect " className="absolute scale-z-75 pointer-events-none top-0 right-0 left-0 mask-radial-from-0 -mt-[650px]"   />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
-            <div className="md:flex md:flex-row ">
-                <div className="p-10 ">
+            <div className="md:flex md:flex-row flex flex-col ">
+                <div className="p-10 flex flex-col ">
                     <TiltedCard
                         imageSrc={Me}
                         altText="Aymen Berbiche"
@@ -57,7 +57,7 @@ const home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-10 pl-4">
+                <div className="pt-10 pl-4 flex flex-col ">
                     <div className="bg-[#EAF4FF08] p-8 pr-16  rounded-2xl border-[#A1CDFF1A] border-[1px]">
                         <p className="text-3xl font-semibold ">Introduction </p> <br />
                         <p>Hola amigos! Aymen here — Full-stack dev , CS graduate , and Bioinformatics Master’s Student. <br />
@@ -105,7 +105,7 @@ const home = () => {
             </div>
 
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
-            <div className="flex flex-row">
+            <div className="md:flex md:flex-row flex flex-col w-full ">
                 <div className="   m-10  items-center border-[#A1CDFF14] border-1  justify-center  bg-[#C2F6FF08] rounded-2xl w-[570px] ">
                     <p className="text-2xl text-center pt-4">View All Works</p>
                     <img src={Views} alt="img" className="h-[300px]" />
@@ -125,7 +125,7 @@ const home = () => {
             </div>
             <br />
             <hr className="text-[#A1CDFF1A] ml-8 mr-4" />
-            <div className="flex flex-row justify-around  ">
+            <div className="flex flex-row justify-around  w-full  ">
                 <div style={{
                     backgroundImage: `url(${Bg })`, 
                 }} className=" bg-no-repeat flex flex-row p-6 mt-10 items-center justify-center space-x-8 border-[#A1CDFF14]   md:w-[680px] bg-[#EAF4FF08] border-[1px] rounded-2xl">
