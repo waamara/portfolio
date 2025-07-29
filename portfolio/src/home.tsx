@@ -30,7 +30,7 @@ import { NavLink } from "react-router-dom";
 const home = () => {
     return (
         <div
-            className="text-white flex flex-col bg-[#0F0F0F] p-8 overflow-x-hidden md:flex md:flex-col">
+            className="text-white flex flex-col bg-[#0F0F0F] p-8 overflow-x-hidden  md:flex md:flex-col">
             <img src={Blur} alt="Blur eefect " className="absolute scale-z-75 pointer-events-none top-0 right-0 left-0 mask-radial-from-0 -mt-[650px]"   />
             <hr className="text-[#A1CDFF1A] ml-8 mr-8" />
             <div className="md:flex md:flex-row flex flex-col ">
