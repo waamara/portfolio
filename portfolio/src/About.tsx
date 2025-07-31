@@ -1,64 +1,84 @@
+import React from "react";
 import Bgimg from "../../portfolio/src/assets/backgr.png";
-import Seepng from "../../portfolio/src/assets/see.png";
-import Dowlandpng from "../../portfolio/src/assets/dowland.png";
-import Mypic from "../../portfolio/src/assets/me.jpg";
-import Pointimg from "../../portfolio/src/assets/point.png";
-import Foldericone from "../../portfolio/src/assets/folder.png";
-import Img from "../../portfolio/src/assets/img.png";
-import More from "../../portfolio/src/assets/More.png";
-import Fram from "../../portfolio/src/assets/Frame.png";
-import Views from "../../portfolio/src/assets/Mac Studio 1.png";
-import Myphoto from "../src/assets/1741356507458 1.png";
-import Linkdini from "../src/assets/Overlay+Shadow (1).png";
+import Blur from "../src/assets/a.png";
+import Me from "../src/assets/IMG_7000.jpg";
+import Pointimg from "../src/assets/point.png";
 import Githubi from "../src/assets/Overlay+Shadow (4).png";
 import Emaili from "../src/assets/Overlay+Shadow (5).png";
-import Arrow from "../src/assets/Arrow 1.png";
-import Switch from "../src/assets/switch.png";
-import Me from "../src/assets/IMG_7000.jpg";
-import TiltedCard from "./components/TiltedCard";
-import SpotlightCard from "./components/SpotlightCard";
-import Stack from "./components/Stack";
-import testimonials from "./testemonial";
-import Stack1 from "./components/Stack1";
-import Ficone from "../src/assets/Icon (1).png";
+import Linkdini from "../src/assets/Overlay+Shadow (1).png";
 import Sicone from "../src/assets/Icon (2).png";
-import Video from "../src/assets/Rectangle 1927.png";
-import CountUp from "../src/components/Countup";
+import Ficone from "../src/assets/Icon (1).png";
 import Gif from "../src/assets/téléchargement.gif";
-import { useEffect, useState } from "react";
 import OrbitingTools from "./components/OrbitingTools";
-import Blur from "../src/assets/a.png";
-import Bg from "../src/assets/Image.png";
-
-const tags = ["Frontend Developer", "UI Designer", "Web Enthusiast", "React Lover"];
-
-const AutoTagCarousel = () => {
-  const [index, setIndex] = useState(0);
-  useEffect(() => {
-    const interval = setInterval(() => setIndex((prev) => (prev + 1) % tags.length), 2000);
-    return () => clearInterval(interval);
-  }, []);
-  return (
-    <div className="flex flex-row space-x-1.5 mt-2 transition-all duration-700 ease-in-out">
-      <div className="bg-[#3F82FF1C] border border-[#A1CDFF14] p-2 rounded-2xl min-w-[200px] text-center">
-        <p>{tags[index]}</p>
-      </div>
-    </div>
-  );
-};
+import TiltedCard from "./components/TiltedCard";
+import CountUp from "../src/components/Countup";
 
 const About = () => {
   return (
-    <div style={{ backgroundImage: `url(${Bgimg})` }} className="text-white bg-[#0F0F0F] p-4 sm:p-6 md:p-8 overflow-x-hidden">
-      <img src={Blur} alt="Blur effect" className="absolute top-0 left-0 w-full pointer-events-none -mt-[650px] z-0" />
-      <hr className="text-[#A1CDFF1A] my-4" />
+    <div
+      style={{ backgroundImage: `url(${Bgimg})` }}
+      className="relative text-white bg-[#0F0F0F] overflow-x-hidden px-4 sm:px-6 md:px-8 py-8"
+    >
+      <img
+        src={Blur}
+        alt="Blur effect"
+        className="absolute top-0 left-0 w-full pointer-events-none -mt-[650px] scale-[0.75] z-0"
+      />
 
-      <div className="flex flex-col md:flex-row">
-        <div className="p-4 md:p-10 flex flex-col">
+      <hr className="border-[#A1CDFF1A] my-6" />
+
+      {/* Section 1: Intro + Get in Touch */}
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-1/2 space-y-8">
+          <div className="bg-[#EAF4FF08] p-6 rounded-2xl border border-[#A1CDFF14]">
+            <p className="text-3xl font-semibold">About The Developer</p>
+            <p className="mt-4 text-sm sm:text-base">
+              A dedicated developer with a solid foundation in both frontend
+              and backend technologies. I specialize in building modern,
+              responsive applications using React and Tailwind CSS on the
+              frontend, and I work with Node.js, Express.js, and PHP on the
+              backend as I continue to grow as a full‑stack developer.<br /><br />
+              I hold a Bachelor’s degree in Computer Science, and I’m currently
+              pursuing a Master’s degree in Bioinformatics, where I aim to bridge
+              the gap between technology and biological data analysis.<br /><br />
+              I’m focused on writing clean, maintainable code and building
+              scalable applications that solve real‑world problems.
+            </p>
+            <p className="text-xl mt-4">Core Values:</p>
+          </div>
+
+          <div>
+            <p className="text-3xl font-semibold mb-4">Get In Touch</p>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-6">
+              {[{
+                href: "https://github.com/waamara",
+                img: Githubi,
+                label: "Follow On Github"
+              },
+              {
+                href: "mailto:berbicheaymen@gmail.com",
+                img: Emaili,
+                label: "Follow On Email"
+              },
+              {
+                href: "https://www.linkedin.com/in/aymen-berbiche-772a13280/",
+                img: Linkdini,
+                label: "Follow On Linkedin"
+              }].map((item, i) => (
+                <a key={i} href={item.href} className="w-full sm:w-[230px] h-[130px] bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl hover:bg-transparent hover:pl-6 transition p-4 flex items-center">
+                  <img src={item.img} alt="" className="w-6 h-6 mr-3" />
+                  <span>{item.label}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-1/2 flex flex-col items-center">
           <TiltedCard
             imageSrc={Me}
             altText="Aymen Berbiche"
-            captionText="Aymen Berbiche - Software Engineer"
+            captionText="Aymen Berbiche – Software Engineer"
             containerHeight="300px"
             containerWidth="300px"
             imageHeight="345px"
@@ -68,49 +88,68 @@ const About = () => {
             showTooltip={true}
             displayOverlayContent={false}
           />
-
-          <div className='flex flex-row justify-center text-center mt-8 pb-4 bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
-            <div className="mt-4 rounded-md flex flex-row text-center justify-center items-center">
-              <img src={Pointimg} alt="icone" className="w-4 h-4 rounded-full" />
-              <p className="text-xl pl-8 font-semibold">Available For Work</p>
-            </div>
+          <div className="mt-8 p-4 bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl flex justify-center w-full max-w-sm">
+            <img src={Pointimg} alt="" className="w-4 h-4 mr-2" />
+            <p className="text-xl font-semibold">Available For Work</p>
           </div>
-        </div>
-
-        <div className="pt-10 pl-4 flex flex-col">
-          <div className="bg-[#EAF4FF08] p-4 md:p-8 pr-4 md:pr-16 rounded-2xl border-[#A1CDFF1A] border-[1px]">
-            <p className="text-3xl font-semibold">About The Developer</p> <br />
-            <p className="text-sm md:text-base">A dedicated developer with a solid foundation in both frontend and backend technologies. I specialize in building modern, responsive applications using React and Tailwind CSS on the frontend, and I work with Node.js, Express.js, and PHP on the backend as I continue to grow as a full-stack developer.<br /><br />
-
-            I hold a Bachelor’s degree in Computer Science, and I’m currently pursuing a Master’s degree in Bioinformatics, where I aim to bridge the gap between technology and biological data analysis.<br /><br />
-
-            I'm focused on writing clean, maintainable code and building scalable applications that solve real-world problems.</p>
-            <p className="text-xl mt-4">Core Values:</p>
-          </div>
-
-          <div className='flex flex-col mt-6'>
-            <p className="font-semibold text-3xl mb-4">Get In Touch</p>
-            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-              <a href="https://github.com/waamara" className="w-full md:w-[230px] h-[130px] rounded-2xl bg-[#EAF4FF08] border-[1px] hover:bg-transparent hover:pl-6 border-[#A1CDFF14] transition-all">
-                <img src={Githubi} alt="Github icon" className="-mt-3 -ml-2" />
-                <p className="pl-4 pt-2">Follow On Github</p>
-              </a>
-              <a href="mailto:berbicheaymen@gmail.com" className="w-full md:w-[230px] h-[130px] rounded-2xl bg-[#EAF4FF08] border-[1px] hover:bg-transparent hover:pl-6 border-[#A1CDFF14] transition-all">
-                <img src={Emaili} alt="Email icon" className="-mt-3 -ml-2" />
-                <p className="pl-4 pt-2">Follow On Email</p>
-              </a>
-              <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/" className="w-full md:w-[230px] h-[130px] rounded-2xl bg-[#EAF4FF08] border-[1px] hover:bg-transparent hover:pl-6 border-[#A1CDFF14] transition-all">
-                <img src={Linkdini} alt="Linkedin icon" className="-mt-3 -ml-2" />
-                <p className="pl-4 pt-2">Follow On Linkedin</p>
-              </a>
-            </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            <a href="../src/assets/AYMEN BERBICHE.pdf" className="w-full sm:w-[140px] h-[100px] bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl flex flex-col items-center justify-center transition hover:bg-transparent p-4">
+              <p className="text-center">See My <br /> Resume</p>
+              <img src={Sicone} alt="" className="w-4 h-4 mt-2" />
+            </a>
+            <a href="../src/assets/AYMEN BERBICHE.pdf" download className="w-full sm:w-[140px] h-[100px] bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl flex flex-col items-center justify-center transition hover:bg-transparent p-4">
+              <p className="text-center">Download <br /> Resume</p>
+              <img src={Ficone} alt="" className="w-4 h-4 mt-2" />
+            </a>
           </div>
         </div>
       </div>
 
-      <hr className="text-[#A1CDFF1A] mt-10" />
-      <div className="flex justify-center items-center mt-8">
-        <p>Made By Aymen &copy; {new Date().getFullYear()}</p>
+      <hr className="border-[#A1CDFF1A] my-8" />
+
+      {/* Skills & Stats Section */}
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="bg-[#C2F6FF08] border border-[#A1CDFF14] rounded-2xl p-6 w-full lg:w-[470px] flex flex-col">
+          <div className="space-y-4 text-center">
+            <div className="flex justify-center flex-wrap gap-4">
+              {["Frontend Developer", "Backend Developer", "Site Optimization", "Database Creation", "UI/UX Design"].map((skill, i) => (
+                <div key={i} className="bg-[#3F82FF1C] border border-[#A1CDFF14] p-2 rounded-xl text-sm">
+                  {skill}
+                </div>
+              ))}
+            </div>
+            <p className="text-4xl font-semibold">Tools & Skills</p>
+            <p>Tools that I use to create my web applications</p>
+            <div className="mt-4">
+              <OrbitingTools />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col w-full">
+          <p className="text-3xl mb-6">Quick Stats</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[{title: "Completed Projects", end: 12}, {title: "Years of Experience", end: 3}, {title: "Bugs Resolved", end: 267}].map((stat, i) => (
+              <div key={i} className="bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl p-4 flex flex-col items-center">
+                <p className="text-2xl font-semibold">+<CountUp end={stat.end} duration={2000} /></p>
+                <p className="text-center">{stat.title}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 bg-[#EAF4FF08] border border-[#A1CDFF14] rounded-2xl p-4 flex flex-col sm:flex-row items-center gap-4">
+            <p className="text-center sm:text-left flex-1">
+              Behind every great website is a developer running on coffee,
+              stubbornness, and pure creative energy. So don’t worry — your code
+              is in safe hands :)
+            </p>
+            <img src={Gif} alt="Anime gif" className="w-full sm:w-[250px] rounded-2xl" />
+          </div>
+        </div>
+      </div>
+
+      <hr className="border-[#A1CDFF1A] my-8" />
+      <div className="text-center text-sm sm:text-base">
+        Made by Aymen &copy; {new Date().getFullYear()}
       </div>
     </div>
   );
