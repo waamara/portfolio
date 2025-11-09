@@ -42,7 +42,7 @@ const Home = () => {
             displayOverlayContent={false}
           />
 
-          <div className='flex flex-row justify-center text-center mt-8 pb-4 bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
+          <div className='flex flex-row justify-center text-center mt-22 pb-4 bg-[#EAF4FF08] border-[1px] border-[#A1CDFF14] rounded-2xl'>
             <div className="mt-4 rounded-md flex flex-row text-center justify-center items-center">
               <img src={Pointimg} alt="icone" className="w-4 h-4 rounded-full" />
               <p className="text-xl pl-8 font-semibold">Available For Work</p>
