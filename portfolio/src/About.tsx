@@ -98,8 +98,7 @@ const about = () => {
                             <a href="mailto:berbicheaymen@gmail.com">
                                 <div className="bg-[#EAF4FF08] border-[1px]  hover:bg-transparent  hover:pl-6 cursor-pointer  border-[#A1CDFF14] w-[230px] h-[130px] rounded-2xl ">
                                     <img src={Emaili} alt="instagram-icone" className="flex -mt-3 -ml-2" />
-                                    <a className=" pl-4 pb-12 rounded-md"
-                                        href="mailto:berbicheaymen@gmail.com" email >Follow On Email</a>
+                                    <a
                                 </div>
                             </a>
                             <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/">
